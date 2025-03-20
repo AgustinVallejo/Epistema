@@ -255,7 +255,7 @@ function getNodeColor(type) {
     }
     else {
         // Assign a random pastel color to the type
-        colorMap[type] = `hsl(${Math.random() * 360}, 80%, 60%)`;
+        colorMap[type] = `hsl(${Object.keys(colorMap).length * 360 / 11}, 80%, 60%)`;
         debugger;
         return colorMap[type]
     }
@@ -896,10 +896,6 @@ function centerGraph(simulation) {
 
     // Create a pulsing effect by strengthening forces
 
-    // Step 1: Increase the charge repulsion to push nodes apart first
-    simulation.force("charge").strength(-900);
-    simulation.alpha(0.5).restart();
-
     // Step 2: After a short delay, strengthen the center force to pull nodes in
     setTimeout(() => {
         // Create a new stronger center force
@@ -917,20 +913,6 @@ function centerGraph(simulation) {
         // Visual indicator that the centering is active
         const button = document.querySelector('.center-graph');
         if (button) button.classList.add('active');
-
-        // Step 3: Gradually return to normal after animation completes
-        setTimeout(() => {
-            // Remove temporary forces
-            simulation
-                .force("x", null)
-                .force("y", null)
-                .force("charge", d3.forceManyBody().strength(originalChargeStrength))
-                .alpha(0.3)
-                .restart();
-
-            // Remove active indicator
-            if (button) button.classList.remove('active');
-        }, 2000);
     }, 500);
 }
 

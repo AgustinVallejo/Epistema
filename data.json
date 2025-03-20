@@ -2,75 +2,2797 @@
   "nodes": [
     {
       "id": 1,
-      "name": "Temaaaaa",
-      "description": "The starting point",
-      "type": "concept",
+      "name": "Artificial Intelligence",
+      "description": "",
+      "type": "Artificial Intelligence",
       "parentID": null,
       "childrenIDs": [
-        2,
-        3
+        13,
+        14,
+        15,
+        16
       ],
-      "x": 634.7704572772195,
-      "y": 202.62981189245036
+      "x": 647.3408790757343,
+      "y": -477.2478518008572
     },
     {
       "id": 2,
-      "name": "Child 1",
-      "description": "First child",
-      "type": "concept",
-      "parentID": 1,
+      "name": "Astronomy",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": null,
       "childrenIDs": [
-        4
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
       ],
-      "x": 609.8221066153366,
-      "y": 366.9710968865446
+      "x": 50.601130522381204,
+      "y": 3.4646570525026084
     },
     {
       "id": 3,
-      "name": "Child 2",
-      "description": "Second child",
-      "type": "concept",
-      "parentID": 1,
+      "name": "Education",
+      "description": "",
+      "type": "Education",
+      "parentID": null,
       "childrenIDs": [
-        5
+        53,
+        54,
+        55
       ],
-      "x": 477.3186225382649,
-      "y": 152.73599988936917
+      "x": 720.5072862185177,
+      "y": 1041.4012884600231
     },
     {
       "id": 4,
-      "name": "Grandchild 1",
-      "description": "First grandchild",
-      "type": "concept",
-      "parentID": 2,
-      "childrenIDs": [],
-      "x": 477.2447490403743,
-      "y": 419.86171288024093
+      "name": "Mind & Culture",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": null,
+      "childrenIDs": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "x": 393.27210044388386,
+      "y": 601.9414445513986
     },
     {
       "id": 5,
-      "name": "Grandchild 2",
-      "description": "Second grandchild",
-      "type": "concept",
-      "parentID": 3,
-      "childrenIDs": [],
-      "x": 369.0344154180546,
-      "y": 244.46623142601618
+      "name": "Personal",
+      "description": "",
+      "type": "Personal",
+      "parentID": null,
+      "childrenIDs": [
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "x": 935.9380586870832,
+      "y": 80.68127298033401
     },
     {
       "id": 6,
-      "name": "Nuevo nodo",
-      "description": "Nuevo nodo",
-      "type": "information",
+      "name": "PhET",
+      "description": "",
+      "type": "PhET",
+      "parentID": null,
+      "childrenIDs": [
+        180,
+        181
+      ],
+      "x": 816.0900659183119,
+      "y": -512.3196254512437
+    },
+    {
+      "id": 7,
+      "name": "Qualia",
+      "description": "",
+      "type": "Qualia",
+      "parentID": null,
+      "childrenIDs": [
+        182,
+        183,
+        184,
+        185
+      ],
+      "x": 1085.811246605144,
+      "y": 595.5080074090147
+    },
+    {
+      "id": 8,
+      "name": "Recipes",
+      "description": "",
+      "type": "Recipes",
+      "parentID": null,
+      "childrenIDs": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "x": 465.6540092041794,
+      "y": -57.39465418830176
+    },
+    {
+      "id": 9,
+      "name": "Viajes",
+      "description": "",
+      "type": "Viajes",
+      "parentID": null,
+      "childrenIDs": [
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        251
+      ],
+      "x": 1442.8041407787446,
+      "y": 114.47220559631052
+    },
+    {
+      "id": 10,
+      "name": "Website",
+      "description": "",
+      "type": "Website",
+      "parentID": null,
+      "childrenIDs": [
+        249,
+        250
+      ],
+      "x": 984.2988112298251,
+      "y": -373.4027477405545
+    },
+    {
+      "id": 11,
+      "name": "empty",
+      "description": "",
+      "type": "empty",
       "parentID": null,
       "childrenIDs": [],
-      "x": 500.92894855419684,
-      "y": 284.2614389464373
+      "x": 1439.1362544576639,
+      "y": -81.31820823799721
+    },
+    {
+      "id": 12,
+      "name": "To Get List",
+      "description": "",
+      "type": "To Get List",
+      "parentID": null,
+      "childrenIDs": [],
+      "x": 92.69880022328823,
+      "y": 281.02757595176087
+    },
+    {
+      "id": 13,
+      "name": "Kaggle",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 1,
+      "childrenIDs": [
+        17,
+        18,
+        19
+      ],
+      "x": 539.1027150967951,
+      "y": -334.3309899307172
+    },
+    {
+      "id": 14,
+      "name": "Lecturas y Videos - AI",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 1,
+      "childrenIDs": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "x": 826.321054332991,
+      "y": -351.1423644787052
+    },
+    {
+      "id": 15,
+      "name": "Charlas Educación",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 1,
+      "childrenIDs": [],
+      "x": 777.5275043200669,
+      "y": -393.1261667915522
+    },
+    {
+      "id": 16,
+      "name": "Coursera",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 1,
+      "childrenIDs": [],
+      "x": 490.8820517154983,
+      "y": -432.00055451804775
+    },
+    {
+      "id": 17,
+      "name": "Explainability",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 13,
+      "childrenIDs": [],
+      "x": 409.61411647679967,
+      "y": -396.9974181717418
+    },
+    {
+      "id": 18,
+      "name": "Intermediate ML",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 13,
+      "childrenIDs": [],
+      "x": 641.3907816043621,
+      "y": -407.5117574621528
+    },
+    {
+      "id": 19,
+      "name": "Intro to DL",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 13,
+      "childrenIDs": [],
+      "x": 547.9344029958178,
+      "y": -470.91922323665835
+    },
+    {
+      "id": 20,
+      "name": "Consilience",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 14,
+      "childrenIDs": [
+        27,
+        28
+      ],
+      "x": 842.233489447512,
+      "y": -187.46657218727216
+    },
+    {
+      "id": 21,
+      "name": "EPM y el Impacto Global de la IA",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 14,
+      "childrenIDs": [],
+      "x": 675.0510168240295,
+      "y": -298.7251874587696
+    },
+    {
+      "id": 22,
+      "name": "Generative Agents Interactive Simulacra of Human B",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 14,
+      "childrenIDs": [],
+      "x": 904.7717549567689,
+      "y": -223.20039179358724
+    },
+    {
+      "id": 23,
+      "name": "Politica Nacional para la Transformacion Digital C",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 14,
+      "childrenIDs": [],
+      "x": 707.1480845225311,
+      "y": -247.55785141074716
+    },
+    {
+      "id": 24,
+      "name": "Robot Proof - Joseph Aoun (2017)",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 14,
+      "childrenIDs": [],
+      "x": 673.8168720004585,
+      "y": -359.69257081355715
+    },
+    {
+      "id": 25,
+      "name": "Turing’s Test - Computing Machinery and Intelligen",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 14,
+      "childrenIDs": [],
+      "x": 768.8822364649068,
+      "y": -210.0928352716053
+    },
+    {
+      "id": 26,
+      "name": "Wait But Why",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 14,
+      "childrenIDs": [],
+      "x": 733.9774489910021,
+      "y": -474.27825803755513
+    },
+    {
+      "id": 27,
+      "name": "Axiological Technology Design",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 20,
+      "childrenIDs": [],
+      "x": 909.7922483724208,
+      "y": -306.0453662911803
+    },
+    {
+      "id": 28,
+      "name": "Development in Progress",
+      "description": "",
+      "type": "Artificial Intelligence",
+      "parentID": 20,
+      "childrenIDs": [],
+      "x": 771.151219094378,
+      "y": -300.2285825809154
+    },
+    {
+      "id": 29,
+      "name": "Entrenamientos",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [
+        37,
+        38
+      ],
+      "x": 148.24055499273967,
+      "y": -125.10541822695014
+    },
+    {
+      "id": 30,
+      "name": "Legacy",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "x": 214.35170762636787,
+      "y": -142.99439707043055
+    },
+    {
+      "id": 31,
+      "name": "Trabajo de Grado",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [
+        49
+      ],
+      "x": 173.73981257764018,
+      "y": 101.59980878322388
+    },
+    {
+      "id": 32,
+      "name": "UdeA Educación y Astronomía",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [
+        50,
+        51
+      ],
+      "x": 121.73948934680877,
+      "y": 168.13173840898168
+    },
+    {
+      "id": 33,
+      "name": "Astro Ideas",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [],
+      "x": 61.63856876145357,
+      "y": 165.2220128173859
+    },
+    {
+      "id": 34,
+      "name": "Curso de Creación de Simulaciones",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [],
+      "x": 86.78791856630325,
+      "y": -150.88137819202424
+    },
+    {
+      "id": 35,
+      "name": "Datos",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [],
+      "x": 199.68426688583676,
+      "y": -54.819388052957756
+    },
+    {
+      "id": 36,
+      "name": "Traducción AstroEdu",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 2,
+      "childrenIDs": [],
+      "x": -6.957188676534457,
+      "y": 156.57707483904687
+    },
+    {
+      "id": 37,
+      "name": "Data Analysis",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 29,
+      "childrenIDs": [
+        39
+      ],
+      "x": 195.96034860425357,
+      "y": -254.93972013642878
+    },
+    {
+      "id": 38,
+      "name": "Olimpify",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 29,
+      "childrenIDs": [],
+      "x": 286.1233182536126,
+      "y": -135.48615857318353
+    },
+    {
+      "id": 39,
+      "name": "Modelos",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 37,
+      "childrenIDs": [],
+      "x": 295.5762131718707,
+      "y": -349.01927510204104
+    },
+    {
+      "id": 40,
+      "name": "Semillero de Astronomía",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 30,
+      "childrenIDs": [
+        46,
+        47,
+        48
+      ],
+      "x": 343.7640141225901,
+      "y": -249.07881067651564
+    },
+    {
+      "id": 41,
+      "name": "Apophis",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 30,
+      "childrenIDs": [],
+      "x": 302.1207556252841,
+      "y": -18.92350824094274
+    },
+    {
+      "id": 42,
+      "name": "Artemis II",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 30,
+      "childrenIDs": [],
+      "x": 272.2696419084798,
+      "y": -279.5735956738901
+    },
+    {
+      "id": 43,
+      "name": "Clases Cristian Echeverri",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 30,
+      "childrenIDs": [],
+      "x": 362.3884993686765,
+      "y": -172.9820113899032
+    },
+    {
+      "id": 44,
+      "name": "Emergence",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 30,
+      "childrenIDs": [],
+      "x": 221.75103471481512,
+      "y": 11.305125456184943
+    },
+    {
+      "id": 45,
+      "name": "Planetario Enseñanza",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 30,
+      "childrenIDs": [],
+      "x": 352.38904202094784,
+      "y": -74.85576695829435
+    },
+    {
+      "id": 46,
+      "name": "Cronograma",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 40,
+      "childrenIDs": [],
+      "x": 475.56420011219046,
+      "y": -280.562515442587
+    },
+    {
+      "id": 47,
+      "name": "Integrantes",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 40,
+      "childrenIDs": [],
+      "x": 436.93106462048,
+      "y": -343.71094622793794
+    },
+    {
+      "id": 48,
+      "name": "Pendientes",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 40,
+      "childrenIDs": [],
+      "x": 435.2463731186608,
+      "y": -144.97169113643767
+    },
+    {
+      "id": 49,
+      "name": "Reunión Leonor Huerta",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 31,
+      "childrenIDs": [],
+      "x": 118.05026140859393,
+      "y": -15.220664892892538
+    },
+    {
+      "id": 50,
+      "name": "Lecturas AstroEdu",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 32,
+      "childrenIDs": [
+        52
+      ],
+      "x": 9.063040191862806,
+      "y": 259.7532722459062
+    },
+    {
+      "id": 51,
+      "name": "Astronomía como herramienta pedagógica",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 32,
+      "childrenIDs": [],
+      "x": 22.731575241925828,
+      "y": 76.37271490383236
+    },
+    {
+      "id": 52,
+      "name": "Bernal-Benavides 2023",
+      "description": "",
+      "type": "Astronomy",
+      "parentID": 50,
+      "childrenIDs": [],
+      "x": 69.43965108555501,
+      "y": 374.7335709297637
+    },
+    {
+      "id": 53,
+      "name": "Lecturas Educación",
+      "description": "",
+      "type": "Education",
+      "parentID": 3,
+      "childrenIDs": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "x": 807.3421528804844,
+      "y": 869.1791976723989
+    },
+    {
+      "id": 54,
+      "name": "Physics Education Paper 1",
+      "description": "",
+      "type": "Education",
+      "parentID": 3,
+      "childrenIDs": [],
+      "x": 830.1189200200827,
+      "y": 930.5179390533656
+    },
+    {
+      "id": 55,
+      "name": "Reuniones",
+      "description": "",
+      "type": "Education",
+      "parentID": 3,
+      "childrenIDs": [],
+      "x": 647.001148039641,
+      "y": 902.7876873608981
+    },
+    {
+      "id": 56,
+      "name": "Declaración PRISMA 2020 una guía actualizada par",
+      "description": "",
+      "type": "Education",
+      "parentID": 53,
+      "childrenIDs": [],
+      "x": 780.6777008833365,
+      "y": 1011.2773911451029
+    },
+    {
+      "id": 57,
+      "name": "Educación popular en el contexto de la filosofía",
+      "description": "",
+      "type": "Education",
+      "parentID": 53,
+      "childrenIDs": [],
+      "x": 932.1107074481268,
+      "y": 947.3734557581093
+    },
+    {
+      "id": 58,
+      "name": "El Proyecto de Investigación",
+      "description": "",
+      "type": "Education",
+      "parentID": 53,
+      "childrenIDs": [],
+      "x": 838.5501687028585,
+      "y": 1018.1226710309097
+    },
+    {
+      "id": 59,
+      "name": "Investigación en Educación en Ciencias",
+      "description": "",
+      "type": "Education",
+      "parentID": 53,
+      "childrenIDs": [],
+      "x": 683.691962005682,
+      "y": 802.290999957502
+    },
+    {
+      "id": 60,
+      "name": "Investigar en el campo de la Didáctica de las Cie",
+      "description": "",
+      "type": "Education",
+      "parentID": 53,
+      "childrenIDs": [],
+      "x": 846.5153745862943,
+      "y": 731.5475757849398
+    },
+    {
+      "id": 61,
+      "name": "¿Cómo hacer una revisión sistemática siguiendo ",
+      "description": "",
+      "type": "Education",
+      "parentID": 53,
+      "childrenIDs": [],
+      "x": 894.4714202328414,
+      "y": 994.2641931635912
+    },
+    {
+      "id": 62,
+      "name": "Académico y Opinión",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "x": 434.242938628978,
+      "y": 824.5294740283297
+    },
+    {
+      "id": 63,
+      "name": "Arte",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [
+        81,
+        82
+      ],
+      "x": 242.09269764312026,
+      "y": 697.154108269016
+    },
+    {
+      "id": 64,
+      "name": "Conferencias",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [
+        83
+      ],
+      "x": 476.363620464703,
+      "y": 748.9820282485559
+    },
+    {
+      "id": 65,
+      "name": "Conversaciones",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "x": 677.0821834044814,
+      "y": 555.5311844838013
+    },
+    {
+      "id": 66,
+      "name": "Ideas",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [
+        102,
+        103,
+        104
+      ],
+      "x": 181.74491109979496,
+      "y": 584.5290125559999
+    },
+    {
+      "id": 67,
+      "name": "Literatura",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "x": 434.2136005150449,
+      "y": 319.65637445270687
+    },
+    {
+      "id": 68,
+      "name": "Videos",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [
+        138,
+        139
+      ],
+      "x": 220.8882494772091,
+      "y": 534.8347365449264
+    },
+    {
+      "id": 69,
+      "name": "Chistes y Puns",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [],
+      "x": 557.031797970435,
+      "y": 567.6285670343622
+    },
+    {
+      "id": 70,
+      "name": "Micro-Literatura",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [],
+      "x": 386.5297812893252,
+      "y": 762.1929234744952
+    },
+    {
+      "id": 71,
+      "name": "Películas y Series",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [],
+      "x": 235.78206133434193,
+      "y": 635.8390036147917
+    },
+    {
+      "id": 72,
+      "name": "Podcasts",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 4,
+      "childrenIDs": [],
+      "x": 302.220876131665,
+      "y": 734.4366483797901
+    },
+    {
+      "id": 73,
+      "name": "80 000 hours",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 457.77073824113756,
+      "y": 974.2842248046729
+    },
+    {
+      "id": 74,
+      "name": "Fedesarrollo",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 294.02465707476506,
+      "y": 874.0379554434676
+    },
+    {
+      "id": 75,
+      "name": "Marginalian",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 548.3389045898376,
+      "y": 917.2151534621684
+    },
+    {
+      "id": 76,
+      "name": "Miya Perry Theory of Mind",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 393.9872097231632,
+      "y": 965.3441095187292
+    },
+    {
+      "id": 77,
+      "name": "Nature",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 285.0271547234931,
+      "y": 808.4888739269663
+    },
+    {
+      "id": 78,
+      "name": "Nautilus",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 506.728057542726,
+      "y": 957.680133543952
+    },
+    {
+      "id": 79,
+      "name": "Palladium",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 568.9528447229441,
+      "y": 773.4600624529461
+    },
+    {
+      "id": 80,
+      "name": "Un Inmueble al Año - Devis",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 62,
+      "childrenIDs": [],
+      "x": 332.5817236846301,
+      "y": 929.0522967607807
+    },
+    {
+      "id": 81,
+      "name": "Fito Paez",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 63,
+      "childrenIDs": [],
+      "x": 372.5261567138468,
+      "y": 677.3040264019472
+    },
+    {
+      "id": 82,
+      "name": "William Turner",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 63,
+      "childrenIDs": [],
+      "x": 173.8440387504068,
+      "y": 809.2036493737819
+    },
+    {
+      "id": 83,
+      "name": "Charlas Mías",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 64,
+      "childrenIDs": [
+        84,
+        85,
+        86
+      ],
+      "x": 574.4908255670416,
+      "y": 860.4302239238444
+    },
+    {
+      "id": 84,
+      "name": "IA y Educación",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 83,
+      "childrenIDs": [],
+      "x": 714.6027287882478,
+      "y": 883.2174265464234
+    },
+    {
+      "id": 85,
+      "name": "La Velocidad de la Luz",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 83,
+      "childrenIDs": [],
+      "x": 589.4422358973075,
+      "y": 1005.4564988150473
+    },
+    {
+      "id": 86,
+      "name": "PhET + AI",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 83,
+      "childrenIDs": [],
+      "x": 656.1728262798259,
+      "y": 978.896557397318
+    },
+    {
+      "id": 87,
+      "name": "Bucles Educativos y Núcleos Familiares",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 754.9198084024922,
+      "y": 689.813473387111
+    },
+    {
+      "id": 88,
+      "name": "Conversaciones",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 838.7950118890959,
+      "y": 580.9773309353268
+    },
+    {
+      "id": 89,
+      "name": "Cosmogonías fuera del Espacio-Tiempo",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 837.9623932450629,
+      "y": 540.3655146229823
+    },
+    {
+      "id": 90,
+      "name": "Effective Altruism",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 793.9363497471657,
+      "y": 657.7032952293085
+    },
+    {
+      "id": 91,
+      "name": "El futuro para atrás y objetos",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 745.9819734351289,
+      "y": 410.2148937775095
+    },
+    {
+      "id": 92,
+      "name": "Empleos domésticos",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 809.5234847129838,
+      "y": 465.3139639276795
+    },
+    {
+      "id": 93,
+      "name": "Hombre-Naturaleza-Tecnología",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 653.4097478200714,
+      "y": 707.7544671799369
+    },
+    {
+      "id": 94,
+      "name": "Impacto Ambiental, Objetividad y Contexto",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 708.4640835571269,
+      "y": 707.0079191424045
+    },
+    {
+      "id": 95,
+      "name": "La Ficción y su Rol en la Cultura",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 830.4221139215259,
+      "y": 501.0887651481943
+    },
+    {
+      "id": 96,
+      "name": "Liderazgo",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 602.707333108201,
+      "y": 690.7783500121733
+    },
+    {
+      "id": 97,
+      "name": "N-word",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 699.9663865552945,
+      "y": 403.17087579410776
+    },
+    {
+      "id": 98,
+      "name": "Naturaleza humana y comodidad",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 560.3746561127964,
+      "y": 661.0228018510168
+    },
+    {
+      "id": 99,
+      "name": "Qué quiere el ser humano, y sesgos",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 822.7110154023474,
+      "y": 620.4515175173623
+    },
+    {
+      "id": 100,
+      "name": "Tarot, Psicología, IA",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 530.7775403181329,
+      "y": 616.8404900687542
+    },
+    {
+      "id": 101,
+      "name": "Transhumanismo",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 65,
+      "childrenIDs": [],
+      "x": 783.269585153355,
+      "y": 432.92320910075415
+    },
+    {
+      "id": 102,
+      "name": "Frases",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 66,
+      "childrenIDs": [
+        105
+      ],
+      "x": 53.646804113202656,
+      "y": 494.94469870262014
+    },
+    {
+      "id": 103,
+      "name": "Palabras",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 66,
+      "childrenIDs": [],
+      "x": 39.91999994212883,
+      "y": 570.0161256957397
+    },
+    {
+      "id": 104,
+      "name": "Preguntas",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 66,
+      "childrenIDs": [],
+      "x": 125.58367027355543,
+      "y": 711.3443575831195
+    },
+    {
+      "id": 105,
+      "name": "García Márquez",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 102,
+      "childrenIDs": [],
+      "x": -12.299371340911781,
+      "y": 378.9971525528337
+    },
+    {
+      "id": 106,
+      "name": "El Hombre Ilustrado - Ray Bradbury 1948",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 287.71669809365557,
+      "y": 393.7805610104861
+    },
+    {
+      "id": 107,
+      "name": "Biografía de Teresita Gómez - Beatriz Helena Rob",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 338.936165180435,
+      "y": 433.36502949954297
+    },
+    {
+      "id": 108,
+      "name": "Chaos - James Gleick 1987",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 255.37647702061963,
+      "y": 364.879322590833
+    },
+    {
+      "id": 109,
+      "name": "Conquista de la Felicidad - Bertrand Russell 1930",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 418.79303525446437,
+      "y": 489.63610287723117
+    },
+    {
+      "id": 110,
+      "name": "Demian - Herman Hesse 1919",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 285.580374406306,
+      "y": 338.6639941768822
+    },
+    {
+      "id": 111,
+      "name": "Dune - Frank Herbert",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 254.10778575422563,
+      "y": 304.31814306770303
+    },
+    {
+      "id": 112,
+      "name": "El Asesinato de Pitágoras - Marcos Chicot 2013",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 341.56639806124815,
+      "y": 473.2724315208423
+    },
+    {
+      "id": 113,
+      "name": "El Nombre del Planeta es Bosque - Ursula K Le Guin",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 456.44086639800696,
+      "y": 476.14677278170393
+    },
+    {
+      "id": 114,
+      "name": "El Nombre del Viento - Patrick Rothfuss (2007, 201",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 334.0566681557271,
+      "y": 210.9525399082612
+    },
+    {
+      "id": 115,
+      "name": "El Otoño del Patriarca - García Márquez 1975",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 298.3380410347843,
+      "y": 432.529428834779
+    },
+    {
+      "id": 116,
+      "name": "Emperor’s New Mind - Roger Penrose 1989",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 527.5063864976954,
+      "y": 448.833480212681
+    },
+    {
+      "id": 117,
+      "name": "Fundamentos de Filosofía - Bertrand Russell 1927",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 559.2334269882267,
+      "y": 193.07297213020414
+    },
+    {
+      "id": 118,
+      "name": "Guía del Cazador Recolector - Heyin y Weinstein (",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 270.0555661335712,
+      "y": 246.29537368636616
+    },
+    {
+      "id": 119,
+      "name": "Historia de la eternidad - Jorge Luis Borges",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 288.0461496619599,
+      "y": 282.01445343394295
+    },
+    {
+      "id": 120,
+      "name": "Historia del Mundo Mapa a Mapa 2018",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 382.93877280629766,
+      "y": 471.91922451623094
+    },
+    {
+      "id": 121,
+      "name": "I of the Vortex - Rodolfo Llinás",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 294.21351147264244,
+      "y": 214.42253651438924
+    },
+    {
+      "id": 122,
+      "name": "Kunst der Farbe (El arte del color) - Johannes Itt",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 323.38865508061934,
+      "y": 172.4075420752401
+    },
+    {
+      "id": 123,
+      "name": "La Insoportable Levedad del Ser - Milán Kundera",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 393.73562359213173,
+      "y": 138.4638846673671
+    },
+    {
+      "id": 124,
+      "name": "La Invención de la Naturaleza - Andrea Wulf",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 577.4237131688894,
+      "y": 392.9571121813613
+    },
+    {
+      "id": 125,
+      "name": "La Isla - Aldous Huxley 1932",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 496.3728791293298,
+      "y": 473.93521527950554
+    },
+    {
+      "id": 126,
+      "name": "La tejedora de coronas - Germán Espinosa (1982)",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 562.9042351572879,
+      "y": 430.22242606877603
+    },
+    {
+      "id": 127,
+      "name": "Momentos estelares - Zweig 1927",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 419.10372504005846,
+      "y": 169.38278326395016
+    },
+    {
+      "id": 128,
+      "name": "Nexus - Yuval Noah Harari (2024)",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 601.5304153430739,
+      "y": 359.8895250847145
+    },
+    {
+      "id": 129,
+      "name": "Picturing the Americas",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 365.2207791756981,
+      "y": 167.42816573999053
+    },
+    {
+      "id": 130,
+      "name": "Red Mars - Kim Stanley Robinson 1992",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 519.3561319970163,
+      "y": 196.1211775510993
+    },
+    {
+      "id": 131,
+      "name": "Sputnik, mi amor - Murakami",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 475.84305027977086,
+      "y": 163.83793320197486
+    },
+    {
+      "id": 132,
+      "name": "The Blank Slate - Steven Pinker 2002",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 586.8183996590694,
+      "y": 322.69980263266643
+    },
+    {
+      "id": 133,
+      "name": "Tierra Contrafuturo - Luis Carlos Barragán 2021",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 580.0317461399347,
+      "y": 265.8785407246917
+    },
+    {
+      "id": 134,
+      "name": "Un Verdor Terrible - Benjamin Labatut 2020",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 582.0266765508641,
+      "y": 225.93434071726264
+    },
+    {
+      "id": 135,
+      "name": "Utopía no es una isla - Layla Martínez (2020)",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 516.884623141252,
+      "y": 155.40127860557826
+    },
+    {
+      "id": 136,
+      "name": "Vagabunda Bogotá - Luis Carlos Barragán",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 446.85277459915903,
+      "y": 135.85330578274116
+    },
+    {
+      "id": 137,
+      "name": "Viaje a Pie - Fernando González",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 67,
+      "childrenIDs": [],
+      "x": 611.8491150601722,
+      "y": 290.48624625016294
+    },
+    {
+      "id": 138,
+      "name": "Crash Course Religion",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 68,
+      "childrenIDs": [],
+      "x": 113.86592081902243,
+      "y": 450.87203747448234
+    },
+    {
+      "id": 139,
+      "name": "How to think creatively on command Tiago Forte (Th",
+      "description": "",
+      "type": "Mind & Culture",
+      "parentID": 68,
+      "childrenIDs": [],
+      "x": 105.42624431019414,
+      "y": 611.5446995192952
+    },
+    {
+      "id": 140,
+      "name": "Antonia",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [
+        149,
+        150
+      ],
+      "x": 1135.448275442521,
+      "y": 74.53708390193059
+    },
+    {
+      "id": 141,
+      "name": "Predicciones",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [
+        151
+      ],
+      "x": 979.6574618499867,
+      "y": -96.87903691889817
+    },
+    {
+      "id": 142,
+      "name": "Psicología",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "x": 707.1978113256646,
+      "y": 40.04452609178287
+    },
+    {
+      "id": 143,
+      "name": "Apnea",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [],
+      "x": 789.7564879524031,
+      "y": 9.373390255881988
+    },
+    {
+      "id": 144,
+      "name": "Journal",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [],
+      "x": 1089.1081501079939,
+      "y": 123.57069073271313
+    },
+    {
+      "id": 145,
+      "name": "Llagas",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [],
+      "x": 977.9946637337703,
+      "y": 233.68079171078608
+    },
+    {
+      "id": 146,
+      "name": "Notas de Salidas",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [],
+      "x": 1089.2331007491105,
+      "y": 39.61697721025949
+    },
+    {
+      "id": 147,
+      "name": "Restaurantes",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [],
+      "x": 773.8475433460977,
+      "y": 89.35490839770031
+    },
+    {
+      "id": 148,
+      "name": "Travel List",
+      "description": "",
+      "type": "Personal",
+      "parentID": 5,
+      "childrenIDs": [],
+      "x": 1055.8230870487707,
+      "y": -13.034459794091447
+    },
+    {
+      "id": 149,
+      "name": "Europa 2024",
+      "description": "",
+      "type": "Personal",
+      "parentID": 140,
+      "childrenIDs": [],
+      "x": 1270.5474963970714,
+      "y": 25.1512449567051
+    },
+    {
+      "id": 150,
+      "name": "Las Aguas",
+      "description": "",
+      "type": "Personal",
+      "parentID": 140,
+      "childrenIDs": [],
+      "x": 1002.3983557064165,
+      "y": 108.1454460629389
+    },
+    {
+      "id": 151,
+      "name": "Predicciones",
+      "description": "",
+      "type": "Personal",
+      "parentID": 141,
+      "childrenIDs": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "x": 1169.1229229287537,
+      "y": -164.58824472633617
+    },
+    {
+      "id": 152,
+      "name": "AGI para Diciembre jaja",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1179.6383090428922,
+      "y": -323.1480709207404
+    },
+    {
+      "id": 153,
+      "name": "Apnea",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1263.5686975117576,
+      "y": -289.39402345582124
+    },
+    {
+      "id": 154,
+      "name": "Conseguir equipos IOAA",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1018.6294375268185,
+      "y": -145.72854814931742
+    },
+    {
+      "id": 155,
+      "name": "Curso de Simulaciones UdeA",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1095.2479947538204,
+      "y": -304.70610635652145
+    },
+    {
+      "id": 156,
+      "name": "Dani va a salvar Qualia",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1014.4182489859558,
+      "y": -192.34659552868183
+    },
+    {
+      "id": 157,
+      "name": "Jugaré tenis",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1319.0676870824095,
+      "y": -214.38859863957697
+    },
+    {
+      "id": 158,
+      "name": "Kathy viene a Medellín",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1223.2189403540067,
+      "y": -312.6948661933713
+    },
+    {
+      "id": 159,
+      "name": "Lucho va a salvar Qualia",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1200.0449273656982,
+      "y": -18.95484252090594
+    },
+    {
+      "id": 160,
+      "name": "Maestría en Educación",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1329.1289022847104,
+      "y": -171.2012580380828
+    },
+    {
+      "id": 161,
+      "name": "Me voy para Brasil a la IOAA",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1306.0257527174813,
+      "y": -85.38826279719126
+    },
+    {
+      "id": 162,
+      "name": "PROA IA",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1297.319376728385,
+      "y": -255.06037758774966
+    },
+    {
+      "id": 163,
+      "name": "PROA intensivo",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1058.2543054843459,
+      "y": -276.43337047962626
+    },
+    {
+      "id": 164,
+      "name": "Qualia va a crecer",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1136.4041666547287,
+      "y": -320.41001478735575
+    },
+    {
+      "id": 165,
+      "name": "Tendré clases de piano con Teresita",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1324.8044585779546,
+      "y": -127.09260673143234
+    },
+    {
+      "id": 166,
+      "name": "Tocaré más piano",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1093.8794856598197,
+      "y": -43.342497040313276
+    },
+    {
+      "id": 167,
+      "name": "Veré el eclipse de sol en México",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1041.0532849484382,
+      "y": -85.232356686133
+    },
+    {
+      "id": 168,
+      "name": "Voy a dar el curso de Astro para profes",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1030.494151196955,
+      "y": -237.71183652078693
+    },
+    {
+      "id": 169,
+      "name": "Voy a trabajar con la IUDA",
+      "description": "",
+      "type": "Personal",
+      "parentID": 151,
+      "childrenIDs": [],
+      "x": 1270.6247186319333,
+      "y": -51.00790431752948
+    },
+    {
+      "id": 170,
+      "name": "1",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 792.1541039862414,
+      "y": -90.02581895797297
+    },
+    {
+      "id": 171,
+      "name": "2",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 671.2640542801536,
+      "y": -110.5646025231143
+    },
+    {
+      "id": 172,
+      "name": "3",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 712.277460110224,
+      "y": 191.20963648045543
+    },
+    {
+      "id": 173,
+      "name": "4",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 842.6527999743676,
+      "y": -45.3584075911371
+    },
+    {
+      "id": 174,
+      "name": "5",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 730.8916733955904,
+      "y": -112.14564517792938
+    },
+    {
+      "id": 175,
+      "name": "6",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 770.2688731274491,
+      "y": 186.98761395694484
+    },
+    {
+      "id": 176,
+      "name": "7",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 553.5390708731256,
+      "y": 11.705905723074222
+    },
+    {
+      "id": 177,
+      "name": "8",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 865.8786613803604,
+      "y": 21.125140132109998
+    },
+    {
+      "id": 178,
+      "name": "9",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 819.1062778439369,
+      "y": 157.60343649451085
+    },
+    {
+      "id": 179,
+      "name": "Untitled",
+      "description": "",
+      "type": "Personal",
+      "parentID": 142,
+      "childrenIDs": [],
+      "x": 854.1462489504667,
+      "y": 105.48156245212613
+    },
+    {
+      "id": 180,
+      "name": "Información",
+      "description": "",
+      "type": "PhET",
+      "parentID": 6,
+      "childrenIDs": [],
+      "x": 934.1341691165313,
+      "y": -433.40577076664255
+    },
+    {
+      "id": 181,
+      "name": "PhET-iO Notes",
+      "description": "",
+      "type": "PhET",
+      "parentID": 6,
+      "childrenIDs": [],
+      "x": 957.2842374936876,
+      "y": -499.6690877761931
+    },
+    {
+      "id": 182,
+      "name": "Clientes",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 7,
+      "childrenIDs": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204
+      ],
+      "x": 1300.5930966635137,
+      "y": 536.9180787263194
+    },
+    {
+      "id": 183,
+      "name": "Cursos",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 7,
+      "childrenIDs": [
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219
+      ],
+      "x": 1080.5914568001633,
+      "y": 826.2663810359227
+    },
+    {
+      "id": 184,
+      "name": "Banco de Actividades",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 7,
+      "childrenIDs": [],
+      "x": 1097.4535072540116,
+      "y": 756.7922715047002
+    },
+    {
+      "id": 185,
+      "name": "Legal",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 7,
+      "childrenIDs": [],
+      "x": 1179.9880379733595,
+      "y": 719.5871952882798
+    },
+    {
+      "id": 186,
+      "name": "Alcázares",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1402.6861778380924,
+      "y": 413.12371754226075
+    },
+    {
+      "id": 187,
+      "name": "Colegio bilingüe Leonardo Da Vinci",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1438.399775869455,
+      "y": 613.1502529024394
+    },
+    {
+      "id": 188,
+      "name": "Colegio Colombo Alemán",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1431.6004526663742,
+      "y": 444.78109031813665
+    },
+    {
+      "id": 189,
+      "name": "Colegio Colombo Británico",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1362.4315200798958,
+      "y": 392.35954696860557
+    },
+    {
+      "id": 190,
+      "name": "Colegio Colombus School",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1454.9086057978272,
+      "y": 569.553902604799
+    },
+    {
+      "id": 191,
+      "name": "Colegio La Enseñanza",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1315.5536454395522,
+      "y": 380.5026538777287
+    },
+    {
+      "id": 192,
+      "name": "Colegio Marymount",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1451.5354766502026,
+      "y": 482.161143738255
+    },
+    {
+      "id": 193,
+      "name": "Colegio Montessori",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1282.8040229092114,
+      "y": 688.3071495083205
+    },
+    {
+      "id": 194,
+      "name": "Colegio San Ignacio",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1459.4966879256328,
+      "y": 524.3103806836459
+    },
+    {
+      "id": 195,
+      "name": "Colegio SJ Vegas",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1267.6348716533823,
+      "y": 383.8991948870277
+    },
+    {
+      "id": 196,
+      "name": "Con La Gente + Nutresa",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1154.240176588207,
+      "y": 480.404853867942
+    },
+    {
+      "id": 197,
+      "name": "Corazonista",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1410.0895203433372,
+      "y": 649.77351018696
+    },
+    {
+      "id": 198,
+      "name": "Flamingo",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1375.1113516442545,
+      "y": 677.9649664865691
+    },
+    {
+      "id": 199,
+      "name": "Fundación Con La Gente",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1222.9969115560657,
+      "y": 404.5176942201604
+    },
+    {
+      "id": 200,
+      "name": "GCode",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1181.725516908392,
+      "y": 438.49731891670217
+    },
+    {
+      "id": 201,
+      "name": "Parque Explora",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1161.3915444242846,
+      "y": 590.5896233416784
+    },
+    {
+      "id": 202,
+      "name": "Sura + Explora",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1332.5715885791246,
+      "y": 692.1739928587907
+    },
+    {
+      "id": 203,
+      "name": "Teresiano",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1146.5247595559094,
+      "y": 529.9749835647402
+    },
+    {
+      "id": 204,
+      "name": "Untitled",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 182,
+      "childrenIDs": [],
+      "x": 1212.91032021183,
+      "y": 654.1187834048225
+    },
+    {
+      "id": 205,
+      "name": "AI Tinkerers Cosmo",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 955.1549031098745,
+      "y": 731.6791726381581
+    },
+    {
+      "id": 206,
+      "name": "Applus 1",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1054.5333353183719,
+      "y": 977.9877651967387
+    },
+    {
+      "id": 207,
+      "name": "Applus 18",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 925.2607093517156,
+      "y": 829.0363511972944
+    },
+    {
+      "id": 208,
+      "name": "Argos Autónomos",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1222.160143594718,
+      "y": 761.7255103720094
+    },
+    {
+      "id": 209,
+      "name": "Contraloría 1A",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 932.8392505306533,
+      "y": 777.2358884124318
+    },
+    {
+      "id": 210,
+      "name": "Contraloría 1B",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 941.1986329996884,
+      "y": 881.0727013862786
+    },
+    {
+      "id": 211,
+      "name": "Contraloría 2A",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1173.8083533487677,
+      "y": 944.8337891105278
+    },
+    {
+      "id": 212,
+      "name": "Contraloría 2B",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 988.8575534285148,
+      "y": 694.4538811324717
+    },
+    {
+      "id": 213,
+      "name": "Entrelazos 1",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1113.3044475637728,
+      "y": 973.1310878480488
+    },
+    {
+      "id": 214,
+      "name": "Entrelazos 2",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1033.1188686049124,
+      "y": 673.8864469751247
+    },
+    {
+      "id": 215,
+      "name": "Entrelazos 3 y 3",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1235.801528613604,
+      "y": 854.7875748325747
+    },
+    {
+      "id": 216,
+      "name": "Entrelazos 4 y 4",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1097.596347485051,
+      "y": 672.5570541356116
+    },
+    {
+      "id": 217,
+      "name": "ExpoAstronomía",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1002.728686175954,
+      "y": 955.6059122401273
+    },
+    {
+      "id": 218,
+      "name": "MARYMOUNT TODOS",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1215.0519347115526,
+      "y": 901.3027176102356
+    },
+    {
+      "id": 219,
+      "name": "Uni Niños",
+      "description": "",
+      "type": "Qualia",
+      "parentID": 183,
+      "childrenIDs": [],
+      "x": 1238.759168773497,
+      "y": 808.354409453853
+    },
+    {
+      "id": 220,
+      "name": "Huevos Tontitos",
+      "description": "",
+      "type": "Recipes",
+      "parentID": 8,
+      "childrenIDs": [],
+      "x": 545.7181655976882,
+      "y": -186.23682854647276
+    },
+    {
+      "id": 221,
+      "name": "Ideas",
+      "description": "",
+      "type": "Recipes",
+      "parentID": 8,
+      "childrenIDs": [],
+      "x": 607.926267141778,
+      "y": -79.77050156314274
+    },
+    {
+      "id": 222,
+      "name": "Pollo a la Naranja",
+      "description": "",
+      "type": "Recipes",
+      "parentID": 8,
+      "childrenIDs": [],
+      "x": 584.980384604264,
+      "y": -146.6155482096995
+    },
+    {
+      "id": 223,
+      "name": "Tikka Massala",
+      "description": "",
+      "type": "Recipes",
+      "parentID": 8,
+      "childrenIDs": [],
+      "x": 485.39621507165674,
+      "y": -204.44619006448627
+    },
+    {
+      "id": 224,
+      "name": "Vegetable Lo Mein for Two",
+      "description": "",
+      "type": "Recipes",
+      "parentID": 8,
+      "childrenIDs": [],
+      "x": 608.4960192497036,
+      "y": -11.179468436227321
+    },
+    {
+      "id": 225,
+      "name": "Brasil 2024",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 9,
+      "childrenIDs": [
+        231
+      ],
+      "x": 1545.9275956003269,
+      "y": 234.32960432536905
+    },
+    {
+      "id": 226,
+      "name": "North America 2023",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 9,
+      "childrenIDs": [
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241
+      ],
+      "x": 1235.7106232643641,
+      "y": 231.67358189505745
+    },
+    {
+      "id": 227,
+      "name": "Amazonas 2023",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 9,
+      "childrenIDs": [],
+      "x": 1284.7803268278838,
+      "y": 155.39551003423696
+    },
+    {
+      "id": 228,
+      "name": "Jardín Abril 2023",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 9,
+      "childrenIDs": [],
+      "x": 1487.5773377863723,
+      "y": 267.7325568463754
+    },
+    {
+      "id": 229,
+      "name": "México 2024",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 9,
+      "childrenIDs": [],
+      "x": 1583.5565862113613,
+      "y": 166.14292783487628
+    },
+    {
+      "id": 230,
+      "name": "Perú 2024",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 9,
+      "childrenIDs": [],
+      "x": 1330.4888781329025,
+      "y": 231.30761128059336
+    },
+    {
+      "id": 231,
+      "name": "Epílogo",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 225,
+      "childrenIDs": [],
+      "x": 1541.2758584726578,
+      "y": 364.77239526086277
+    },
+    {
+      "id": 232,
+      "name": "Historia",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [
+        242
+      ],
+      "x": 1329.8088383975198,
+      "y": 87.86076124916703
+    },
+    {
+      "id": 233,
+      "name": "Travel Plans",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ],
+      "x": 1034.754083145474,
+      "y": 348.7764905758027
+    },
+    {
+      "id": 234,
+      "name": "Chapter 1 AstroEduCon",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1136.142995673678,
+      "y": 354.266945068157
+    },
+    {
+      "id": 235,
+      "name": "Chapter 2 Niagara, Montreal y Boston",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1092.0057307871564,
+      "y": 179.23555089173826
+    },
+    {
+      "id": 236,
+      "name": "Chapter 3 Colorín Colorado",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1079.4313149069135,
+      "y": 235.4189968715799
+    },
+    {
+      "id": 237,
+      "name": "Chapter 4 Heading West",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1228.2605520967666,
+      "y": 82.28094582508311
+    },
+    {
+      "id": 238,
+      "name": "Chapter 5 California",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1092.173749593176,
+      "y": 296.3401056479582
+    },
+    {
+      "id": 239,
+      "name": "Chapter 6 Arizona y Grand Canyon",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1369.9885772375017,
+      "y": 146.37120897780545
+    },
+    {
+      "id": 240,
+      "name": "Chapter 7 Epilogue",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1396.7291550930336,
+      "y": 210.07714242340518
+    },
+    {
+      "id": 241,
+      "name": "Información Importante",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 226,
+      "childrenIDs": [],
+      "x": 1383.6118406774879,
+      "y": 287.4188310319773
+    },
+    {
+      "id": 242,
+      "name": "USA",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 232,
+      "childrenIDs": [],
+      "x": 1448.516996334383,
+      "y": 27.961882921482374
+    },
+    {
+      "id": 243,
+      "name": "Astro Edu Conference",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 233,
+      "childrenIDs": [],
+      "x": 1167.0090813229374,
+      "y": 283.3499281380946
+    },
+    {
+      "id": 244,
+      "name": "Back to Boston",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 233,
+      "childrenIDs": [],
+      "x": 892.3968048797535,
+      "y": 314.4561355811066
+    },
+    {
+      "id": 245,
+      "name": "Boston - Denver",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 233,
+      "childrenIDs": [],
+      "x": 920.0544408453907,
+      "y": 257.09756166062135
+    },
+    {
+      "id": 246,
+      "name": "Flight to Boston",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 233,
+      "childrenIDs": [],
+      "x": 952.0868532177329,
+      "y": 463.71804138244
+    },
+    {
+      "id": 247,
+      "name": "Going to Toronto",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 233,
+      "childrenIDs": [],
+      "x": 1017.2345943041886,
+      "y": 491.42526063758913
+    },
+    {
+      "id": 248,
+      "name": "Untitled",
+      "description": "",
+      "type": "Viajes",
+      "parentID": 233,
+      "childrenIDs": [],
+      "x": 897.679083733607,
+      "y": 380.96206529452104
+    },
+    {
+      "id": 249,
+      "name": "Art Gallery",
+      "description": "",
+      "type": "Website",
+      "parentID": 10,
+      "childrenIDs": [],
+      "x": 863.0454988331131,
+      "y": -445.1676208130676
+    },
+    {
+      "id": 250,
+      "name": "Solar Physics",
+      "description": "",
+      "type": "Website",
+      "parentID": 10,
+      "childrenIDs": [],
+      "x": 1096.2023125177263,
+      "y": -446.1370816957514
+    },
+    {
+      "id": 251,
+      "name": "Marruecos",
+      "description": "Marruecos",
+      "type": "concept",
+      "parentID": 9,
+      "childrenIDs": [],
+      "x": 1508.5935178370455,
+      "y": -28.003711073454006
     }
   ],
   "metadata": {
-    "exportDate": "2025-03-20T01:12:53.936Z",
-    "nodeCount": 6,
-    "nextId": 7
+    "exportDate": "2025-03-20T02:14:22.870Z",
+    "nodeCount": 251,
+    "nextId": 252
   }
 }
