@@ -38,29 +38,17 @@ export class GraphData {
                     console.log('Successfully loaded data from data.json');
                     // Call the callback if provided
                     if (typeof this.onLoadCallback === 'function') {
-                        this.onLoadCallback();
+                        this.onLoadCallback(true);
                     }
                 } else {
                     this.loadSampleData();
-                    // Call the callback if provided
-                    if (typeof this.onLoadCallback === 'function') {
-                        this.onLoadCallback();
-                    }
-                }
-
-                // Call the callback if provided
-                if (typeof this.onLoadCallback === 'function') {
-                    console.log("Calling onLoadCallback with success=true");
-                    this.onLoadCallback(true);
+                    // The callback will be called by loadSampleData
                 }
             })
             .catch(error => {
                 console.warn('Could not load data.json:', error);
                 this.loadSampleData();
-                // Call the callback if provided
-                if (typeof this.onLoadCallback === 'function') {
-                    this.onLoadCallback();
-                }
+                // The callback will be called by loadSampleData
             });
     }
 
@@ -84,12 +72,22 @@ export class GraphData {
 
             this.nextId = 6;
             console.log("Sample data loaded successfully, links:", this.links.length);
+            
+            // Call the callback if provided
+            if (typeof this.onLoadCallback === 'function') {
+                this.onLoadCallback(true);
+            }
         } catch (error) {
             console.error("Error loading sample data:", error);
             // Create minimal fallback data in case of error
             this.nodes = [new NodeData(1, "Error Node", "Created after error", "concept", null, [])];
             this.links = [];
             this.nextId = 2;
+            
+            // Call the callback with failure
+            if (typeof this.onLoadCallback === 'function') {
+                this.onLoadCallback(false);
+            }
         }
     }
 

@@ -685,6 +685,17 @@ function redrawGraph() {
   
   // Restart the simulation
   visualization.simulation.alpha(0.3).restart();
+  
+  // Automatically center and fit nodes after redrawing
+  setTimeout(() => {
+    // First center the graph
+    centerGraph(visualization.simulation);
+    
+    // After centering, zoom to fit all nodes
+    setTimeout(() => {
+      zoomToFitAllNodes(visualization);
+    }, 2500); // Wait for centering animation to complete
+  }, 500); // Small delay to ensure visualization is fully rendered
 }
 
 // Background click handler to exit edit mode or create orphan nodes
@@ -848,11 +859,21 @@ function addZoomControls(container, visualization) {
     centerGraph(visualization.simulation);
   });
   
+  // Fit all nodes button
+  const fitNodesBtn = document.createElement('button');
+  fitNodesBtn.className = 'zoom-btn fit-nodes';
+  fitNodesBtn.innerHTML = '⊡'; // Unicode containing symbol
+  fitNodesBtn.title = 'Fit All Nodes';
+  fitNodesBtn.addEventListener('click', () => {
+    zoomToFitAllNodes(visualization);
+  });
+  
   // Add buttons to container
   controlsContainer.appendChild(zoomInBtn);
   controlsContainer.appendChild(zoomOutBtn);
   controlsContainer.appendChild(resetBtn);
   controlsContainer.appendChild(centerGraphBtn);
+  controlsContainer.appendChild(fitNodesBtn);
   
   // Add controls to the main container
   container.appendChild(controlsContainer);
@@ -870,22 +891,22 @@ function centerGraph(simulation) {
   // Create a pulsing effect by strengthening forces
   
   // Step 1: Increase the charge repulsion to push nodes apart first
-  simulation.force("charge").strength(-600);
-  simulation.alpha(0.3).restart();
+  simulation.force("charge").strength(-900);
+  simulation.alpha(0.5).restart();
   
   // Step 2: After a short delay, strengthen the center force to pull nodes in
   setTimeout(() => {
     // Create a new stronger center force
     simulation
-      .force("center", d3.forceCenter(width / 2, height / 2).strength(0.1))
-      .force("charge", d3.forceManyBody().strength(-300))
-      .alpha(0.8)
+      .force("center", d3.forceCenter(width / 2, height / 2).strength(0.15))
+      .force("charge", d3.forceManyBody().strength(-400))
+      .alpha(1.0)
       .restart();
     
     // Add a temporary x and y forces to pull nodes toward center
     simulation
-      .force("x", d3.forceX(width / 2).strength(0.1))
-      .force("y", d3.forceY(height / 2).strength(0.1));
+      .force("x", d3.forceX(width / 2).strength(0.15))
+      .force("y", d3.forceY(height / 2).strength(0.15));
     
     // Visual indicator that the centering is active
     const button = document.querySelector('.center-graph');
@@ -898,13 +919,13 @@ function centerGraph(simulation) {
         .force("x", null)
         .force("y", null)
         .force("charge", d3.forceManyBody().strength(originalChargeStrength))
-        .alpha(0.1)
+        .alpha(0.3)
         .restart();
       
       // Remove active indicator
       if (button) button.classList.remove('active');
     }, 2000);
-  }, 300);
+  }, 500);
 }
 
 // Create the node edit panel
@@ -1027,6 +1048,66 @@ function updateNodeVisual(node) {
   });
 }
 
+// Function to zoom out to fit all nodes in the viewport
+function zoomToFitAllNodes(visualization) {
+  // Safety check
+  if (!visualization || !visualization.nodeGroup || !graphData || graphData.getNodes().length === 0) {
+    console.warn("Cannot zoom to fit: visualization or nodes not available");
+    return;
+  }
+  
+  const nodes = graphData.getNodes();
+  
+  // Find the bounds of all nodes
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  nodes.forEach(node => {
+    if (node.x !== undefined && node.y !== undefined) {
+      const nodeSize = getNodeSize(node);
+      minX = Math.min(minX, node.x - nodeSize);
+      minY = Math.min(minY, node.y - nodeSize);
+      maxX = Math.max(maxX, node.x + nodeSize);
+      maxY = Math.max(maxY, node.y + nodeSize);
+    }
+  });
+  
+  // If we couldn't determine bounds, return
+  if (minX === Infinity || minY === Infinity || maxX === -Infinity || maxY === -Infinity) {
+    console.warn("Cannot determine node bounds for zooming");
+    return;
+  }
+  
+  // Get the dimensions of the container
+  const { width, height } = getScreenDimensions();
+  
+  // Add padding
+  const padding = 50;
+  minX -= padding;
+  minY -= padding;
+  maxX += padding;
+  maxY += padding;
+  
+  // Calculate the scale
+  const dx = maxX - minX;
+  const dy = maxY - minY;
+  const scale = Math.min(width / dx, height / dy, 1); // Cap at 1x to prevent excessive zoom in
+  
+  // Calculate the translate
+  const centerX = (minX + maxX) / 2;
+  const centerY = (minY + maxY) / 2;
+  const translateX = width / 2 - scale * centerX;
+  const translateY = height / 2 - scale * centerY;
+  
+  // Apply the transform
+  visualization.svg.transition()
+    .duration(750)
+    .call(
+      visualization.zoom.transform,
+      d3.zoomIdentity
+        .translate(translateX, translateY)
+        .scale(scale)
+    );
+}
+
 // Initialize the application when the DOM is loaded
 function initApp() {
   console.log("Initializing application...");
@@ -1042,14 +1123,29 @@ function initApp() {
     // Create GraphData with a callback to initialize visualization when data is loaded
     graphData = new GraphData((success) => {
       console.log("GraphData callback executed, success:", success);
+      
+      // Only create the visualization after the data has been loaded
+      if (!visualization && success) {
+        visualization = createVisualization();
+        container.appendChild(visualization.svg.node());
+        
+        // Add controls after visualization is created
+        addZoomControls(container, visualization);
+        createNodeEditPanel(container);
+        addFileControls(container);
+        
+        // Automatically center the graph and fit all nodes
+        setTimeout(() => {
+          // First center the graph
+          centerGraph(visualization.simulation);
+          
+          // After centering, zoom to fit all nodes
+          setTimeout(() => {
+            zoomToFitAllNodes(visualization);
+          }, 2500); // Wait for centering animation to complete
+        }, 500); // Small delay to ensure visualization is fully rendered
+      }
     });
-
-    if (!visualization) {
-      visualization = createVisualization();
-      container.appendChild(visualization.svg.node());
-    }
-    
-    console.log("GraphData created:", graphData);
     
     // Handle send button click
     document.querySelector('.send-button').addEventListener('click', () => {
