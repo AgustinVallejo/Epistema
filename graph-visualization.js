@@ -125,6 +125,12 @@ function getTextOffset(node) {
 
 // Create the D3 visualization
 function createVisualization() {
+      // Safety check - ensure graphData is initialized
+  if (!graphData) {
+    console.error("graphData is not initialized!");
+    return { svg, graphGroup, zoom };
+  }
+  
   console.log("Creating visualization, graphData:", graphData);
   
   const { width, height } = getScreenDimensions();
@@ -157,12 +163,6 @@ function createVisualization() {
       .duration(750)
       .call(zoom.transform, d3.zoomIdentity);
   });
-
-  // Safety check - ensure graphData is initialized
-  if (!graphData) {
-    console.error("graphData is not initialized!");
-    return { svg, graphGroup, zoom };
-  }
 
   console.log("Initializing simulation with nodes:", graphData.getNodes());
   

@@ -7,20 +7,14 @@ export class GraphData {
         this.nodes = [];
         this.links = [];
         this.nextId = 1;
-        
+
         // Store the callback
         this.onLoadCallback = onLoadCallback;
-        
+
         try {
-            console.log("Loading sample data in GraphData constructor");
+            console.log("Loading initial data in GraphData constructor");
             // Load sample data instead of trying to load from data.json
-            this.loadSampleData();
-            
-            // Call the callback if provided
-            if (typeof this.onLoadCallback === 'function') {
-                console.log("Calling onLoadCallback with success=true");
-                this.onLoadCallback(true);
-            }
+            this.loadInitialData();
         } catch (error) {
             console.error("Error in GraphData constructor:", error);
             if (typeof this.onLoadCallback === 'function') {
@@ -29,10 +23,10 @@ export class GraphData {
             }
         }
     }
-    
+
     // Load initial data from data.json - No longer used in constructor
     loadInitialData() {
-        fetch('data.json')
+        fetch('converted_data.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Failed to load data.json');
@@ -53,6 +47,12 @@ export class GraphData {
                         this.onLoadCallback();
                     }
                 }
+
+                // Call the callback if provided
+                if (typeof this.onLoadCallback === 'function') {
+                    console.log("Calling onLoadCallback with success=true");
+                    this.onLoadCallback(true);
+                }
             })
             .catch(error => {
                 console.warn('Could not load data.json:', error);
@@ -63,7 +63,7 @@ export class GraphData {
                 }
             });
     }
-    
+
     // Load sample data as fallback
     loadSampleData() {
         console.log("Loading sample data...");
@@ -76,12 +76,12 @@ export class GraphData {
                 new NodeData(4, "Grandchild 1", "First grandchild", "concept", 2, []),
                 new NodeData(5, "Grandchild 2", "Second grandchild", "concept", 3, [])
             ];
-            
+
             console.log("Sample nodes created:", this.nodes.length);
-            
+
             // Generate links based on parent-child relationships
             this.updateLinks();
-            
+
             this.nextId = 6;
             console.log("Sample data loaded successfully, links:", this.links.length);
         } catch (error) {
@@ -100,14 +100,14 @@ export class GraphData {
             if (!data.nodes || !Array.isArray(data.nodes)) {
                 throw new Error('Invalid data format: missing nodes array');
             }
-            
+
             // Reset current data
             this.nodes = [];
             this.links = [];
-            
+
             // Find the highest ID to set nextId correctly
             let maxId = 0;
-            
+
             // Create NodeData objects from the loaded data
             for (const nodeData of data.nodes) {
                 const node = new NodeData(
@@ -118,32 +118,32 @@ export class GraphData {
                     nodeData.parentID,
                     nodeData.childrenIDs || []
                 );
-                
+
                 // Restore position if available
                 if (nodeData.x !== undefined && nodeData.y !== undefined) {
                     node.x = nodeData.x;
                     node.y = nodeData.y;
                 }
-                
+
                 this.nodes.push(node);
-                
+
                 // Track highest ID
                 if (node.id > maxId) {
                     maxId = node.id;
                 }
             }
-            
+
             // Set next ID to be one higher than the maximum found
             this.nextId = maxId + 1;
-            
+
             // Get nextId from metadata if available
             if (data.metadata && data.metadata.nextId !== undefined) {
                 this.nextId = data.metadata.nextId;
             }
-            
+
             // Regenerate links
             this.updateLinks();
-            
+
             return true;
         } catch (error) {
             console.error('Error loading data:', error);
@@ -178,7 +178,7 @@ export class GraphData {
                     y: node.y
                 };
             });
-            
+
             const data = {
                 nodes: serializableNodes,
                 metadata: {
@@ -187,7 +187,7 @@ export class GraphData {
                     nextId: this.nextId
                 }
             };
-            
+
             return JSON.stringify(data, null, 2); // Pretty print with 2 spaces
         } catch (error) {
             console.error('Error exporting data to JSON:', error);
@@ -201,10 +201,10 @@ export class GraphData {
         if (!jsonData) {
             return Promise.resolve(false);
         }
-        
+
         // Create a blob with the JSON data
         const blob = new Blob([jsonData], { type: 'application/json' });
-        
+
         // Create a download link and trigger it
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -213,13 +213,13 @@ export class GraphData {
         a.style.display = 'none';
         document.body.appendChild(a);
         a.click();
-        
+
         // Clean up
         setTimeout(() => {
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
         }, 100);
-        
+
         // Return a resolved promise for consistency with the previous API
         return Promise.resolve(true);
     }
@@ -228,7 +228,7 @@ export class GraphData {
     loadFromFile(file) {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
-            
+
             reader.onload = (event) => {
                 try {
                     const jsonString = event.target.result;
@@ -242,11 +242,11 @@ export class GraphData {
                     reject(error);
                 }
             };
-            
+
             reader.onerror = (error) => {
                 reject(error);
             };
-            
+
             reader.readAsText(file);
         });
     }
@@ -262,12 +262,12 @@ export class GraphData {
                     target: node.id
                 });
             }
-            
+
             // Create links to all children
             if (node.childrenIDs && node.childrenIDs.length > 0) {
                 for (const childId of node.childrenIDs) {
                     // Only add if not already added (avoid duplicates)
-                    if (!this.links.some(link => 
+                    if (!this.links.some(link =>
                         link.source === node.id && link.target === childId)) {
                         this.links.push({
                             source: node.id,
@@ -283,10 +283,10 @@ export class GraphData {
     addNode(text = "", parentId = null, initialX = null, initialY = null) {
         // Create a default description and type
         const description = text.length > 0 ? text : `Node ${this.nextId}`;
-        
+
         // Determine node type - standalone nodes are "information" while connected ones are "concept"
         const type = parentId === null ? "information" : "concept";
-        
+
         // Create the new node
         const newNode = new NodeData(
             this.nextId++,
@@ -296,16 +296,16 @@ export class GraphData {
             parentId,
             []
         );
-        
+
         // Set initial position if provided
         if (initialX !== null && initialY !== null) {
             newNode.x = initialX;
             newNode.y = initialY;
         }
-        
+
         // Add it to our nodes collection
         this.nodes.push(newNode);
-        
+
         // If a parent is specified, update the parent's children list
         if (parentId !== null) {
             const parentNode = this.findNodeById(parentId);
@@ -313,10 +313,10 @@ export class GraphData {
                 parentNode.childrenIDs.push(newNode.id);
             }
         }
-        
+
         // Update links
         this.updateLinks();
-        
+
         return newNode;
     }
 
@@ -329,14 +329,13 @@ export class GraphData {
     getRandomNodeExcept(excludeId) {
         const eligibleNodes = this.nodes.filter(node => node.id !== excludeId);
         if (eligibleNodes.length === 0) return null;
-        
+
         const randomIndex = Math.floor(Math.random() * eligibleNodes.length);
         return eligibleNodes[randomIndex];
     }
 
     getNodes() {
         try {
-            console.log("Getting nodes, count:", this.nodes.length);
             return this.nodes;
         } catch (error) {
             console.error("Error in getNodes:", error);
@@ -346,7 +345,6 @@ export class GraphData {
 
     getLinks() {
         try {
-            console.log("Getting links, count:", this.links.length);
             return this.links;
         } catch (error) {
             console.error("Error in getLinks:", error);
@@ -359,15 +357,15 @@ export class GraphData {
         // Check if nodes exist
         const sourceNode = this.findNodeById(sourceId);
         const targetNode = this.findNodeById(targetId);
-        
+
         if (!sourceNode || !targetNode) return;
-        
+
         // Update parent-child relationship
         targetNode.parentID = sourceId;
         if (!sourceNode.childrenIDs.includes(targetId)) {
             sourceNode.childrenIDs.push(targetId);
         }
-        
+
         // Update links
         this.updateLinks();
     }
@@ -377,9 +375,9 @@ export class GraphData {
         // Check if both nodes exist
         const sourceNode = this.findNodeById(sourceId);
         const targetNode = this.findNodeById(targetId);
-        
+
         if (!sourceNode || !targetNode) return false;
-        
+
         // Update parent-child relationship
         if (targetNode.parentID !== null) {
             // If target already has a parent, remove this node from the old parent's children
@@ -388,18 +386,18 @@ export class GraphData {
                 oldParent.childrenIDs = oldParent.childrenIDs.filter(id => id !== targetId);
             }
         }
-        
+
         // Set new parent
         targetNode.parentID = sourceId;
-        
+
         // Add to new parent's children if not already there
         if (!sourceNode.childrenIDs.includes(targetId)) {
             sourceNode.childrenIDs.push(targetId);
         }
-        
+
         // Update links
         this.updateLinks();
-        
+
         return true;
     }
 
@@ -412,12 +410,12 @@ export class GraphData {
 
         // Start with direct children count
         let count = node.childrenIDs.length;
-        
+
         // Add all descendants of each child
         for (const childId of node.childrenIDs) {
             count += this.countDescendants(childId);
         }
-        
+
         return count;
     }
 } 
