@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Tema",
+      "description": "The starting point",
+      "type": "concept",
+      "parentID": null,
+      "childrenIDs": [
+        2,
+        3
+      ],
+      "x": 533.3155810627451,
+      "y": 182.59909787974053
+    },
+    {
+      "id": 2,
+      "name": "Child 1",
+      "description": "First child",
+      "type": "concept",
+      "parentID": 1,
+      "childrenIDs": [
+        4
+      ],
+      "x": 685.0817072150572,
+      "y": 247.543931092011
+    },
+    {
+      "id": 3,
+      "name": "Child 2",
+      "description": "Second child",
+      "type": "concept",
+      "parentID": 1,
+      "childrenIDs": [
+        5,
+        6
+      ],
+      "x": 387.6700199429707,
+      "y": 262.8016400077193
+    },
+    {
+      "id": 4,
+      "name": "Grandchild 1",
+      "description": "First grandchild",
+      "type": "concept",
+      "parentID": 2,
+      "childrenIDs": [],
+      "x": 818.4519295600485,
+      "y": 287.8890772644567
+    },
+    {
+      "id": 5,
+      "name": "Grandchild 2",
+      "description": "Second grandchild",
+      "type": "concept",
+      "parentID": 3,
+      "childrenIDs": [],
+      "x": 248.0161704045338,
+      "y": 285.5905904918399
+    },
+    {
+      "id": 6,
+      "name": "Nuevo nodo",
+      "description": "Nuevo nodo",
+      "type": "concept",
+      "parentID": 3,
+      "childrenIDs": [],
+      "x": 396.45538188774816,
+      "y": 404.49387917356256
+    }
+  ],
+  "metadata": {
+    "exportDate": "2025-03-20T01:11:14.672Z",
+    "nodeCount": 6,
+    "nextId": 7
+  }
+}

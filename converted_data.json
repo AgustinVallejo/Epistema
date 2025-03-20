@@ -1,0 +1,2787 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "name": "Artificial Intelligence",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                13,
+                14,
+                15,
+                16
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 2,
+            "name": "Astronomy",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 3,
+            "name": "Education",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                53,
+                54,
+                55
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 4,
+            "name": "Mind & Culture",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 5,
+            "name": "Personal",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 6,
+            "name": "PhET",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                180,
+                181
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 7,
+            "name": "Qualia",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                182,
+                183,
+                184,
+                185
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 8,
+            "name": "Recipes",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                220,
+                221,
+                222,
+                223,
+                224
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 9,
+            "name": "Viajes",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                225,
+                226,
+                227,
+                228,
+                229,
+                230
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 10,
+            "name": "Website",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [
+                249,
+                250
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 11,
+            "name": "empty",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 12,
+            "name": "To Get List",
+            "description": "",
+            "type": "concept",
+            "parentID": null,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 13,
+            "name": "Kaggle",
+            "description": "",
+            "type": "concept",
+            "parentID": 1,
+            "childrenIDs": [
+                17,
+                18,
+                19
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 14,
+            "name": "Lecturas y Videos - AI",
+            "description": "",
+            "type": "concept",
+            "parentID": 1,
+            "childrenIDs": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 15,
+            "name": "Charlas Educacio\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 1,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 16,
+            "name": "Coursera",
+            "description": "",
+            "type": "concept",
+            "parentID": 1,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 17,
+            "name": "Explainability",
+            "description": "",
+            "type": "concept",
+            "parentID": 13,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 18,
+            "name": "Intermediate ML",
+            "description": "",
+            "type": "concept",
+            "parentID": 13,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 19,
+            "name": "Intro to DL",
+            "description": "",
+            "type": "concept",
+            "parentID": 13,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 20,
+            "name": "Consilience",
+            "description": "",
+            "type": "concept",
+            "parentID": 14,
+            "childrenIDs": [
+                27,
+                28
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 21,
+            "name": "EPM y el Impacto Global de la IA",
+            "description": "",
+            "type": "concept",
+            "parentID": 14,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 22,
+            "name": "Generative Agents Interactive Simulacra of Human B",
+            "description": "",
+            "type": "concept",
+            "parentID": 14,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 23,
+            "name": "Politica Nacional para la Transformacion Digital C",
+            "description": "",
+            "type": "concept",
+            "parentID": 14,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 24,
+            "name": "Robot Proof - Joseph Aoun (2017)",
+            "description": "",
+            "type": "concept",
+            "parentID": 14,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 25,
+            "name": "Turing\u2019s Test - Computing Machinery and Intelligen",
+            "description": "",
+            "type": "concept",
+            "parentID": 14,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 26,
+            "name": "Wait But Why",
+            "description": "",
+            "type": "concept",
+            "parentID": 14,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 27,
+            "name": "Axiological Technology Design",
+            "description": "",
+            "type": "concept",
+            "parentID": 20,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 28,
+            "name": "Development in Progress",
+            "description": "",
+            "type": "concept",
+            "parentID": 20,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 29,
+            "name": "Entrenamientos",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [
+                37,
+                38
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 30,
+            "name": "Legacy",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 31,
+            "name": "Trabajo de Grado",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [
+                49
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 32,
+            "name": "UdeA Educacio\u0301n y Astronomi\u0301a",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [
+                50,
+                51
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 33,
+            "name": "Astro Ideas",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 34,
+            "name": "Curso de Creacio\u0301n de Simulaciones",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 35,
+            "name": "Datos",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 36,
+            "name": "Traduccio\u0301n AstroEdu",
+            "description": "",
+            "type": "concept",
+            "parentID": 2,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 37,
+            "name": "Data Analysis",
+            "description": "",
+            "type": "concept",
+            "parentID": 29,
+            "childrenIDs": [
+                39
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 38,
+            "name": "Olimpify",
+            "description": "",
+            "type": "concept",
+            "parentID": 29,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 39,
+            "name": "Modelos",
+            "description": "",
+            "type": "concept",
+            "parentID": 37,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 40,
+            "name": "Semillero de Astronomi\u0301a",
+            "description": "",
+            "type": "concept",
+            "parentID": 30,
+            "childrenIDs": [
+                46,
+                47,
+                48
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 41,
+            "name": "Apophis",
+            "description": "",
+            "type": "concept",
+            "parentID": 30,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 42,
+            "name": "Artemis II",
+            "description": "",
+            "type": "concept",
+            "parentID": 30,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 43,
+            "name": "Clases Cristian Echeverri",
+            "description": "",
+            "type": "concept",
+            "parentID": 30,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 44,
+            "name": "Emergence",
+            "description": "",
+            "type": "concept",
+            "parentID": 30,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 45,
+            "name": "Planetario Ensen\u0303anza",
+            "description": "",
+            "type": "concept",
+            "parentID": 30,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 46,
+            "name": "Cronograma",
+            "description": "",
+            "type": "concept",
+            "parentID": 40,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 47,
+            "name": "Integrantes",
+            "description": "",
+            "type": "concept",
+            "parentID": 40,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 48,
+            "name": "Pendientes",
+            "description": "",
+            "type": "concept",
+            "parentID": 40,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 49,
+            "name": "Reunio\u0301n Leonor Huerta",
+            "description": "",
+            "type": "concept",
+            "parentID": 31,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 50,
+            "name": "Lecturas AstroEdu",
+            "description": "",
+            "type": "concept",
+            "parentID": 32,
+            "childrenIDs": [
+                52
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 51,
+            "name": "Astronomi\u0301a como herramienta pedago\u0301gica",
+            "description": "",
+            "type": "concept",
+            "parentID": 32,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 52,
+            "name": "Bernal-Benavides 2023",
+            "description": "",
+            "type": "concept",
+            "parentID": 50,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 53,
+            "name": "Lecturas Educacio\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 3,
+            "childrenIDs": [
+                56,
+                57,
+                58,
+                59,
+                60,
+                61
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 54,
+            "name": "Physics Education Paper 1",
+            "description": "",
+            "type": "concept",
+            "parentID": 3,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 55,
+            "name": "Reuniones",
+            "description": "",
+            "type": "concept",
+            "parentID": 3,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 56,
+            "name": "Declaracio\u0301n PRISMA 2020 una gui\u0301a actualizada par",
+            "description": "",
+            "type": "concept",
+            "parentID": 53,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 57,
+            "name": "Educacio\u0301n popular en el contexto de la filosofi\u0301a",
+            "description": "",
+            "type": "concept",
+            "parentID": 53,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 58,
+            "name": "El Proyecto de Investigacio\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 53,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 59,
+            "name": "Investigacio\u0301n en Educacio\u0301n en Ciencias",
+            "description": "",
+            "type": "concept",
+            "parentID": 53,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 60,
+            "name": "Investigar en el campo de la Dida\u0301ctica de las Cie",
+            "description": "",
+            "type": "concept",
+            "parentID": 53,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 61,
+            "name": "\u00bfCo\u0301mo hacer una revisio\u0301n sistema\u0301tica siguiendo ",
+            "description": "",
+            "type": "concept",
+            "parentID": 53,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 62,
+            "name": "Acade\u0301mico y Opinio\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 63,
+            "name": "Arte",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [
+                81,
+                82
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 64,
+            "name": "Conferencias",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [
+                83
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 65,
+            "name": "Conversaciones",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 66,
+            "name": "Ideas",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [
+                102,
+                103,
+                104
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 67,
+            "name": "Literatura",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 68,
+            "name": "Videos",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [
+                138,
+                139
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 69,
+            "name": "Chistes y Puns",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 70,
+            "name": "Micro-Literatura",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 71,
+            "name": "Peli\u0301culas y Series",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 72,
+            "name": "Podcasts",
+            "description": "",
+            "type": "concept",
+            "parentID": 4,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 73,
+            "name": "80 000 hours",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 74,
+            "name": "Fedesarrollo",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 75,
+            "name": "Marginalian",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 76,
+            "name": "Miya Perry Theory of Mind",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 77,
+            "name": "Nature",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 78,
+            "name": "Nautilus",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 79,
+            "name": "Palladium",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 80,
+            "name": "Un Inmueble al An\u0303o - Devis",
+            "description": "",
+            "type": "concept",
+            "parentID": 62,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 81,
+            "name": "Fito Paez",
+            "description": "",
+            "type": "concept",
+            "parentID": 63,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 82,
+            "name": "William Turner",
+            "description": "",
+            "type": "concept",
+            "parentID": 63,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 83,
+            "name": "Charlas Mi\u0301as",
+            "description": "",
+            "type": "concept",
+            "parentID": 64,
+            "childrenIDs": [
+                84,
+                85,
+                86
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 84,
+            "name": "IA y Educacio\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 83,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 85,
+            "name": "La Velocidad de la Luz",
+            "description": "",
+            "type": "concept",
+            "parentID": 83,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 86,
+            "name": "PhET + AI",
+            "description": "",
+            "type": "concept",
+            "parentID": 83,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 87,
+            "name": "Bucles Educativos y Nu\u0301cleos Familiares",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 88,
+            "name": "Conversaciones",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 89,
+            "name": "Cosmogoni\u0301as fuera del Espacio-Tiempo",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 90,
+            "name": "Effective Altruism",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 91,
+            "name": "El futuro para atra\u0301s y objetos",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 92,
+            "name": "Empleos dome\u0301sticos",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 93,
+            "name": "Hombre-Naturaleza-Tecnologi\u0301a",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 94,
+            "name": "Impacto Ambiental, Objetividad y Contexto",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 95,
+            "name": "La Ficcio\u0301n y su Rol en la Cultura",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 96,
+            "name": "Liderazgo",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 97,
+            "name": "N-word",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 98,
+            "name": "Naturaleza humana y comodidad",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 99,
+            "name": "Que\u0301 quiere el ser humano, y sesgos",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 100,
+            "name": "Tarot, Psicologi\u0301a, IA",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 101,
+            "name": "Transhumanismo",
+            "description": "",
+            "type": "concept",
+            "parentID": 65,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 102,
+            "name": "Frases",
+            "description": "",
+            "type": "concept",
+            "parentID": 66,
+            "childrenIDs": [
+                105
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 103,
+            "name": "Palabras",
+            "description": "",
+            "type": "concept",
+            "parentID": 66,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 104,
+            "name": "Preguntas",
+            "description": "",
+            "type": "concept",
+            "parentID": 66,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 105,
+            "name": "Garci\u0301a Ma\u0301rquez",
+            "description": "",
+            "type": "concept",
+            "parentID": 102,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 106,
+            "name": "El Hombre Ilustrado - Ray Bradbury 1948",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 107,
+            "name": "Biografi\u0301a de Teresita Go\u0301mez - Beatriz Helena Rob",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 108,
+            "name": "Chaos - James Gleick 1987",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 109,
+            "name": "Conquista de la Felicidad - Bertrand Russell 1930",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 110,
+            "name": "Demian - Herman Hesse 1919",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 111,
+            "name": "Dune - Frank Herbert",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 112,
+            "name": "El Asesinato de Pita\u0301goras - Marcos Chicot 2013",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 113,
+            "name": "El Nombre del Planeta es Bosque - Ursula K Le Guin",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 114,
+            "name": "El Nombre del Viento - Patrick Rothfuss (2007, 201",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 115,
+            "name": "El Oton\u0303o del Patriarca - Garci\u0301a Ma\u0301rquez 1975",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 116,
+            "name": "Emperor\u2019s New Mind - Roger Penrose 1989",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 117,
+            "name": "Fundamentos de Filosofi\u0301a - Bertrand Russell 1927",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 118,
+            "name": "Gui\u0301a del Cazador Recolector - Heyin y Weinstein (",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 119,
+            "name": "Historia de la eternidad - Jorge Luis Borges",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 120,
+            "name": "Historia del Mundo Mapa a Mapa 2018",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 121,
+            "name": "I of the Vortex - Rodolfo Llina\u0301s",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 122,
+            "name": "Kunst der Farbe (El arte del color) - Johannes Itt",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 123,
+            "name": "La Insoportable Levedad del Ser - Mila\u0301n Kundera",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 124,
+            "name": "La Invencio\u0301n de la Naturaleza - Andrea Wulf",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 125,
+            "name": "La Isla - Aldous Huxley 1932",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 126,
+            "name": "La tejedora de coronas - Germa\u0301n Espinosa (1982)",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 127,
+            "name": "Momentos estelares - Zweig 1927",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 128,
+            "name": "Nexus - Yuval Noah Harari (2024)",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 129,
+            "name": "Picturing the Americas",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 130,
+            "name": "Red Mars - Kim Stanley Robinson 1992",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 131,
+            "name": "Sputnik, mi amor - Murakami",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 132,
+            "name": "The Blank Slate - Steven Pinker 2002",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 133,
+            "name": "Tierra Contrafuturo - Luis Carlos Barraga\u0301n 2021",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 134,
+            "name": "Un Verdor Terrible - Benjamin Labatut 2020",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 135,
+            "name": "Utopi\u0301a no es una isla - Layla Marti\u0301nez (2020)",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 136,
+            "name": "Vagabunda Bogota\u0301 - Luis Carlos Barraga\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 137,
+            "name": "Viaje a Pie - Fernando Gonza\u0301lez",
+            "description": "",
+            "type": "concept",
+            "parentID": 67,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 138,
+            "name": "Crash Course Religion",
+            "description": "",
+            "type": "concept",
+            "parentID": 68,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 139,
+            "name": "How to think creatively on command Tiago Forte (Th",
+            "description": "",
+            "type": "concept",
+            "parentID": 68,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 140,
+            "name": "Antonia",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [
+                149,
+                150
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 141,
+            "name": "Predicciones",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [
+                151
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 142,
+            "name": "Psicologi\u0301a",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [
+                170,
+                171,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 143,
+            "name": "Apnea",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 144,
+            "name": "Journal",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 145,
+            "name": "Llagas",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 146,
+            "name": "Notas de Salidas",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 147,
+            "name": "Restaurantes",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 148,
+            "name": "Travel List",
+            "description": "",
+            "type": "concept",
+            "parentID": 5,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 149,
+            "name": "Europa 2024",
+            "description": "",
+            "type": "concept",
+            "parentID": 140,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 150,
+            "name": "Las Aguas",
+            "description": "",
+            "type": "concept",
+            "parentID": 140,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 151,
+            "name": "Predicciones",
+            "description": "",
+            "type": "concept",
+            "parentID": 141,
+            "childrenIDs": [
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 152,
+            "name": "AGI para Diciembre jaja",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 153,
+            "name": "Apnea",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 154,
+            "name": "Conseguir equipos IOAA",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 155,
+            "name": "Curso de Simulaciones UdeA",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 156,
+            "name": "Dani va a salvar Qualia",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 157,
+            "name": "Jugare\u0301 tenis",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 158,
+            "name": "Kathy viene a Medelli\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 159,
+            "name": "Lucho va a salvar Qualia",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 160,
+            "name": "Maestri\u0301a en Educacio\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 161,
+            "name": "Me voy para Brasil a la IOAA",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 162,
+            "name": "PROA IA",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 163,
+            "name": "PROA intensivo",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 164,
+            "name": "Qualia va a crecer",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 165,
+            "name": "Tendre\u0301 clases de piano con Teresita",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 166,
+            "name": "Tocare\u0301 ma\u0301s piano",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 167,
+            "name": "Vere\u0301 el eclipse de sol en Me\u0301xico",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 168,
+            "name": "Voy a dar el curso de Astro para profes",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 169,
+            "name": "Voy a trabajar con la IUDA",
+            "description": "",
+            "type": "concept",
+            "parentID": 151,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 170,
+            "name": "1",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 171,
+            "name": "2",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 172,
+            "name": "3",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 173,
+            "name": "4",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 174,
+            "name": "5",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 175,
+            "name": "6",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 176,
+            "name": "7",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 177,
+            "name": "8",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 178,
+            "name": "9",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 179,
+            "name": "Untitled",
+            "description": "",
+            "type": "concept",
+            "parentID": 142,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 180,
+            "name": "Informacio\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 6,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 181,
+            "name": "PhET-iO Notes",
+            "description": "",
+            "type": "concept",
+            "parentID": 6,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 182,
+            "name": "Clientes",
+            "description": "",
+            "type": "concept",
+            "parentID": 7,
+            "childrenIDs": [
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200,
+                201,
+                202,
+                203,
+                204
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 183,
+            "name": "Cursos",
+            "description": "",
+            "type": "concept",
+            "parentID": 7,
+            "childrenIDs": [
+                205,
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212,
+                213,
+                214,
+                215,
+                216,
+                217,
+                218,
+                219
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 184,
+            "name": "Banco de Actividades",
+            "description": "",
+            "type": "concept",
+            "parentID": 7,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 185,
+            "name": "Legal",
+            "description": "",
+            "type": "concept",
+            "parentID": 7,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 186,
+            "name": "Alca\u0301zares",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 187,
+            "name": "Colegio bilingu\u0308e Leonardo Da Vinci",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 188,
+            "name": "Colegio Colombo Alema\u0301n",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 189,
+            "name": "Colegio Colombo Brita\u0301nico",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 190,
+            "name": "Colegio Colombus School",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 191,
+            "name": "Colegio La Ensen\u0303anza",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 192,
+            "name": "Colegio Marymount",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 193,
+            "name": "Colegio Montessori",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 194,
+            "name": "Colegio San Ignacio",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 195,
+            "name": "Colegio SJ Vegas",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 196,
+            "name": "Con La Gente + Nutresa",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 197,
+            "name": "Corazonista",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 198,
+            "name": "Flamingo",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 199,
+            "name": "Fundacio\u0301n Con La Gente",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 200,
+            "name": "GCode",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 201,
+            "name": "Parque Explora",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 202,
+            "name": "Sura + Explora",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 203,
+            "name": "Teresiano",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 204,
+            "name": "Untitled",
+            "description": "",
+            "type": "concept",
+            "parentID": 182,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 205,
+            "name": "AI Tinkerers Cosmo",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 206,
+            "name": "Applus 1",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 207,
+            "name": "Applus 18",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 208,
+            "name": "Argos Auto\u0301nomos",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 209,
+            "name": "Contralori\u0301a 1A",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 210,
+            "name": "Contralori\u0301a 1B",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 211,
+            "name": "Contralori\u0301a 2A",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 212,
+            "name": "Contralori\u0301a 2B",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 213,
+            "name": "Entrelazos 1",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 214,
+            "name": "Entrelazos 2",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 215,
+            "name": "Entrelazos 3 y 3",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 216,
+            "name": "Entrelazos 4 y 4",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 217,
+            "name": "ExpoAstronomi\u0301a",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 218,
+            "name": "MARYMOUNT TODOS",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 219,
+            "name": "Uni Nin\u0303os",
+            "description": "",
+            "type": "concept",
+            "parentID": 183,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 220,
+            "name": "Huevos Tontitos",
+            "description": "",
+            "type": "concept",
+            "parentID": 8,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 221,
+            "name": "Ideas",
+            "description": "",
+            "type": "concept",
+            "parentID": 8,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 222,
+            "name": "Pollo a la Naranja",
+            "description": "",
+            "type": "concept",
+            "parentID": 8,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 223,
+            "name": "Tikka Massala",
+            "description": "",
+            "type": "concept",
+            "parentID": 8,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 224,
+            "name": "Vegetable Lo Mein for Two",
+            "description": "",
+            "type": "concept",
+            "parentID": 8,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 225,
+            "name": "Brasil 2024",
+            "description": "",
+            "type": "concept",
+            "parentID": 9,
+            "childrenIDs": [
+                231
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 226,
+            "name": "North America 2023",
+            "description": "",
+            "type": "concept",
+            "parentID": 9,
+            "childrenIDs": [
+                232,
+                233,
+                234,
+                235,
+                236,
+                237,
+                238,
+                239,
+                240,
+                241
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 227,
+            "name": "Amazonas 2023",
+            "description": "",
+            "type": "concept",
+            "parentID": 9,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 228,
+            "name": "Jardi\u0301n Abril 2023",
+            "description": "",
+            "type": "concept",
+            "parentID": 9,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 229,
+            "name": "Me\u0301xico 2024",
+            "description": "",
+            "type": "concept",
+            "parentID": 9,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 230,
+            "name": "Peru\u0301 2024",
+            "description": "",
+            "type": "concept",
+            "parentID": 9,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 231,
+            "name": "Epi\u0301logo",
+            "description": "",
+            "type": "concept",
+            "parentID": 225,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 232,
+            "name": "Historia",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [
+                242
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 233,
+            "name": "Travel Plans",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [
+                243,
+                244,
+                245,
+                246,
+                247,
+                248
+            ],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 234,
+            "name": "Chapter 1 AstroEduCon",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 235,
+            "name": "Chapter 2 Niagara, Montreal y Boston",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 236,
+            "name": "Chapter 3 Colori\u0301n Colorado",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 237,
+            "name": "Chapter 4 Heading West",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 238,
+            "name": "Chapter 5 California",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 239,
+            "name": "Chapter 6 Arizona y Grand Canyon",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 240,
+            "name": "Chapter 7 Epilogue",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 241,
+            "name": "Informacio\u0301n Importante",
+            "description": "",
+            "type": "concept",
+            "parentID": 226,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 242,
+            "name": "USA",
+            "description": "",
+            "type": "concept",
+            "parentID": 232,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 243,
+            "name": "Astro Edu Conference",
+            "description": "",
+            "type": "concept",
+            "parentID": 233,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 244,
+            "name": "Back to Boston",
+            "description": "",
+            "type": "concept",
+            "parentID": 233,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 245,
+            "name": "Boston - Denver",
+            "description": "",
+            "type": "concept",
+            "parentID": 233,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 246,
+            "name": "Flight to Boston",
+            "description": "",
+            "type": "concept",
+            "parentID": 233,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 247,
+            "name": "Going to Toronto",
+            "description": "",
+            "type": "concept",
+            "parentID": 233,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 248,
+            "name": "Untitled",
+            "description": "",
+            "type": "concept",
+            "parentID": 233,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 249,
+            "name": "Art Gallery",
+            "description": "",
+            "type": "concept",
+            "parentID": 10,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        },
+        {
+            "id": 250,
+            "name": "Solar Physics",
+            "description": "",
+            "type": "concept",
+            "parentID": 10,
+            "childrenIDs": [],
+            "x": 0.0,
+            "y": 0.0
+        }
+    ],
+    "metadata": {
+        "exportDate": "2025-03-20T00:49:06.648765",
+        "nodeCount": 250,
+        "nextId": 251
+    }
+}
