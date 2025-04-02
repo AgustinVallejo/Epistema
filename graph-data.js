@@ -1,3 +1,23 @@
+/**
+ * @file graph-data.js
+ * @description This file contains the implementation of a graph data structure and its associated methods.
+ *              It provides functionality to manage nodes and links, update relationships, and perform
+ *              operations such as counting descendants and finding nodes by ID. This is designed to be
+ *              used in applications requiring dynamic graph manipulation and traversal.
+ * 
+ * Key Features:
+ * - Add, remove, and update nodes and links in the graph.
+ * - Count descendants of a node recursively.
+ * - Find nodes by their unique identifiers.
+ * - Maintain relationships between nodes through parent-child links.
+ * 
+ * Usage:
+ * - Instantiate the graph class and use its methods to manipulate and query the graph structure.
+ * 
+ * Author: Agustín Vallejo + AI
+ * Date: 2025-04
+ */
+
 // Graph data management
 import { NodeData } from './node-data.js';
 
