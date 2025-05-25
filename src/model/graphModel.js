@@ -19,7 +19,7 @@
  */
 
 // Graph data management
-import { NodeData } from './node-data.js';
+import { NodeData } from './nodeModel.js';
 
 export class GraphData {
     constructor(onLoadCallback) {
@@ -33,7 +33,7 @@ export class GraphData {
 
         try {
             console.log("Loading initial data in GraphData constructor");
-            // Load sample data instead of trying to load from data.json
+            // Load sample data instead of trying to load from data/data.json
             this.loadInitialData();
         } catch (error) {
             console.error("Error in GraphData constructor:", error);
@@ -44,18 +44,18 @@ export class GraphData {
         }
     }
 
-    // Load initial data from data.json - No longer used in constructor
+    // Load initial data from data/data.json - No longer used in constructor
     loadInitialData() {
-        fetch('data.json')
+        fetch('data/data.json')
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Failed to load data.json');
+                    throw new Error('Failed to load data/data.json');
                 }
                 return response.json();
             })
             .then(data => {
                 if (this.loadFromData(data)) {
-                    console.log('Successfully loaded data from data.json');
+                    console.log('Successfully loaded data from data/data.json');
                     // Call the callback if provided
                     if (typeof this.onLoadCallback === 'function') {
                         this.onLoadCallback(true);
@@ -66,7 +66,7 @@ export class GraphData {
                 }
             })
             .catch(error => {
-                console.warn('Could not load data.json:', error);
+                console.warn('Could not load data/data.json:', error);
                 this.loadSampleData();
                 // The callback will be called by loadSampleData
             });
@@ -214,7 +214,7 @@ export class GraphData {
     }
 
     // Save the current graph data to a file
-    saveToFile(filename = 'data.json') {
+    saveToFile(filename = 'data/data.json') {
         const jsonData = this.exportToJSON();
         if (!jsonData) {
             return Promise.resolve(false);
@@ -227,7 +227,7 @@ export class GraphData {
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'data.json'; // Always save as data.json
+        a.download = 'data/data.json'; // Always save as data/data.json
         a.style.display = 'none';
         document.body.appendChild(a);
         a.click();
