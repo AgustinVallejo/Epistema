@@ -1,6 +1,19 @@
+import {
+  exitEditMode,
+  exitCreationMode,
+  redrawGraph,
+  graphModel,
+  visualization,
+  container,
+  isCreationMode,
+  isEditMode,
+  pendingNodeText,
+  selectedNode
+} from './graphView.js';
+import { showNotification } from './modals.js';
 
 // Save node edits
-function saveNodeEdits() {
+export function saveNodeEdits() {
   if (!selectedNode) return;
 
   // Get values from inputs
@@ -40,7 +53,7 @@ function saveNodeEdits() {
 }
 
 // Update node visualization after editing
-function updateNodeVisual(node) {
+export function updateNodeVisual(node) {
   // Find the node element
   const nodeElements = document.querySelectorAll('.nodes > g');
 
@@ -75,7 +88,7 @@ function updateNodeVisual(node) {
 
 
 // Calculate node size based on number of descendants
-function getNodeSize(node) {
+export function getNodeSize(node) {
   // Base size for nodes without children
   const baseSize = node.parentID === null ? 18 : 15;
 
@@ -95,7 +108,7 @@ function getNodeSize(node) {
 }
 
 // Calculate font size based on node size
-function getFontSize(node) {
+export function getFontSize(node) {
   // Base font size
   const baseFontSize = 10;
 
@@ -115,7 +128,7 @@ function getFontSize(node) {
 }
 
 // Calculate text vertical position based on node size
-function getTextOffset(node) {
+export function getTextOffset(node) {
   // Base offset
   const baseOffset = node.parentID === null ? 30 : 25;
 
@@ -134,7 +147,7 @@ function getTextOffset(node) {
 
 
 // Get color based on node type
-function getNodeColor(type) {
+export function getNodeColor(type) {
 
   // Check if type is in colorMap, if not, add it as new field and pick from the available colors at random
   if ( colorMap[type] ) {
@@ -151,7 +164,7 @@ function getNodeColor(type) {
 }
 
 // Implement drag behavior for nodes
-function drag(simulation) {
+export function drag(simulation) {
   function dragstarted(event, d) {
       // Don't start drag if we're in creation mode
       if (isCreationMode) {
@@ -188,7 +201,7 @@ function drag(simulation) {
 }
 
 // Toggle node selection
-function toggleNodeSelection(node, svg) {
+export function toggleNodeSelection(node, svg) {
   // If in creation mode, handle parent selection
   if (isCreationMode) {
       console.log('Node clicked in creation mode - creating child node with parent:', node.id);
@@ -207,7 +220,7 @@ function toggleNodeSelection(node, svg) {
 
 
 // Highlight the selected node
-function highlightSelectedNode(node) {
+export function highlightSelectedNode(node) {
   // Find the node element in the DOM
   const nodeElements = document.querySelectorAll('.nodes > g');
 
@@ -226,7 +239,7 @@ function highlightSelectedNode(node) {
 }
 
 // Remove highlighting from all nodes
-function unhighlightSelectedNode() {
+export function unhighlightSelectedNode() {
   const nodeElements = document.querySelectorAll('.nodes > g');
   nodeElements.forEach(el => {
       el.classList.remove('selected');
@@ -234,7 +247,7 @@ function unhighlightSelectedNode() {
 }
 
 // Create a pending node cursor that follows the mouse
-function createPendingNodeCursor() {
+export function createPendingNodeCursor() {
   pendingNodeCursor = document.createElement('div');
   pendingNodeCursor.className = 'pending-node-cursor';
   pendingNodeCursor.id = 'pending-node-cursor';
@@ -245,7 +258,7 @@ function createPendingNodeCursor() {
 
 
 // Highlight node under cursor as potential parent
-function highlightPotentialParent(event) {
+export function highlightPotentialParent(event) {
   // Get mouse position
   const containerRect = container.getBoundingClientRect();
   const mouseX = event.clientX - containerRect.left;
@@ -294,7 +307,7 @@ function highlightPotentialParent(event) {
 }
 
 // Create a new node with a parent
-function createNodeWithParent(parentId) {
+export function createNodeWithParent(parentId) {
   console.log('Creating node with parent, text:', pendingNodeText, 'parentId:', parentId);
 
   if (!pendingNodeText) {
@@ -330,7 +343,7 @@ function createNodeWithParent(parentId) {
 }
 
 // Create an orphan node at current cursor position
-function createOrphanNode() {
+export function createOrphanNode() {
   console.log('Creating orphan node, text:', pendingNodeText);
 
   if (!pendingNodeText) {

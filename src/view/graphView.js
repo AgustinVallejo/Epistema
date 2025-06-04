@@ -1,18 +1,42 @@
+import {
+    drag,
+    toggleNodeSelection,
+    highlightSelectedNode,
+    unhighlightSelectedNode,
+    createPendingNodeCursor,
+    highlightPotentialParent,
+    createOrphanNode,
+    getNodeSize,
+    getFontSize,
+    getTextOffset,
+    getNodeColor
+} from './nodeView.js';
+import {
+    createNodeEditPanel,
+    showNodeEditUI,
+    hideNodeEditUI,
+    showNotification,
+    showCreationHelp,
+    hideCreationHelp
+} from './modals.js';
+import { zoomToFitAllNodes } from './screenControls.js';
+import { addZoomControls } from './buttons.js';
+
 let dataSource = '../data/data.json';
 
 // Create and initialize the graph data
-let graphModel;
-let visualization;
-let container;
+export let graphModel;
+export let visualization;
+export let container;
 
 // Initialize variables for edit mode and creation mode
-let selectedNode = null;
-let isEditMode = false;
-let isCreationMode = false;
-let pendingNodeText = '';
-let pendingNodeCursor = null;
+export let selectedNode = null;
+export let isEditMode = false;
+export let isCreationMode = false;
+export let pendingNodeText = '';
+export let pendingNodeCursor = null;
 let creationHelpText = null;
-let colorMap = {};
+export let colorMap = {};
 
 // Get the dimensions of the container
 function getScreenDimensions() {
@@ -67,7 +91,7 @@ function calculateGraphCentroid() {
 }
 
 // Create the D3 visualization
-function createVisualization() {
+export function createVisualization() {
     // Safety check - ensure graphModel is initialized
     if (!graphModel) {
         console.error("graphModel is not initialized!");
@@ -189,7 +213,7 @@ function createVisualization() {
 }
 
 // Enter edit mode
-function enterEditMode(node) {
+export function enterEditMode(node) {
     // Set the selected node
     selectedNode = node;
     isEditMode = true;
@@ -212,7 +236,7 @@ function enterEditMode(node) {
 }
 
 // Exit edit mode
-function exitEditMode() {
+export function exitEditMode() {
     if (!isEditMode) return;
 
     // Reset state
@@ -237,7 +261,7 @@ function exitEditMode() {
 }
 
 // Enter creation mode to select a parent or create an orphan
-function enterCreationMode(text) {
+export function enterCreationMode(text) {
     // Log for debugging
     console.log('Entering creation mode with text:', text);
 
@@ -275,7 +299,7 @@ function enterCreationMode(text) {
 }
 
 // Exit creation mode
-function exitCreationMode() {
+export function exitCreationMode() {
     if (!isCreationMode) return;
 
     isCreationMode = false;
@@ -297,10 +321,7 @@ function exitCreationMode() {
     }
 
     // Remove help text
-    if (creationHelpText) {
-        creationHelpText.remove();
-        creationHelpText = null;
-    }
+    hideCreationHelp();
 
     // Remove event listeners
     document.removeEventListener('mousemove', updateCursorPosition);
@@ -325,7 +346,7 @@ function updateCursorPosition(event) {
 }
 
 // Redraw the graph
-function redrawGraph() {
+export function redrawGraph() {
     // Clear the container
     container.innerHTML = '';
 
@@ -354,7 +375,7 @@ function redrawGraph() {
 }
 
 // Background click handler to exit edit mode or create orphan nodes
-function setupBackgroundClickHandler(svg) {
+export function setupBackgroundClickHandler(svg) {
     svg.on("click", (event) => {
         // Skip if the click came from a node
         if (event.target.closest && event.target.closest('.nodes g')) {
@@ -439,7 +460,7 @@ function addFileControls(container) {
 }
 
 // Function to center the graph by temporarily increasing the center force
-function centerGraph(simulation) {
+export function centerGraph(simulation) {
     // Get the current center force
     const centerForce = simulation.force("center");
     const { width, height } = getScreenDimensions();

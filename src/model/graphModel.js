@@ -21,7 +21,7 @@
 // Graph data management
 import { NodeData } from './nodeModel.js';
 
-export class GraphData {
+export class GraphModel {
     constructor(onLoadCallback) {
         // Initialize nodes and links arrays
         this.nodes = [];
@@ -32,11 +32,11 @@ export class GraphData {
         this.onLoadCallback = onLoadCallback;
 
         try {
-            console.log("Loading initial data in GraphData constructor");
+            console.log("Loading initial data in GraphModel constructor");
             // Load sample data instead of trying to load from data/data.json
             this.loadInitialData();
         } catch (error) {
-            console.error("Error in GraphData constructor:", error);
+            console.error("Error in GraphModel constructor:", error);
             if (typeof this.onLoadCallback === 'function') {
                 console.log("Calling onLoadCallback with success=false");
                 this.onLoadCallback(false);
