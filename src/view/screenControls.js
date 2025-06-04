@@ -1,6 +1,5 @@
-
 // Function to zoom out to fit all nodes in the viewport
-function zoomToFitAllNodes(visualization) {
+export function zoomToFitAllNodes(visualization) {
   // Safety check
   if (!visualization || !visualization.nodeGroup || !graphModel || graphModel.getNodes().length === 0) {
       console.warn("Cannot zoom to fit: visualization or nodes not available");

@@ -1,6 +1,8 @@
+import { centerGraph } from './graphView.js';
+import { zoomToFitAllNodes } from './screenControls.js';
 
 // Add zoom control buttons to the container
-function addZoomControls(container, visualization) {
+export function addZoomControls(container, visualization) {
   const controlsContainer = document.createElement('div');
   controlsContainer.className = 'zoom-controls';
 

@@ -1,6 +1,10 @@
+import { saveNodeEdits } from './nodeView.js';
+import { exitEditMode, container } from './graphView.js';
+
+let creationHelpText = null;
 
 // Show a notification message
-function showNotification(message, type = 'success') {
+export function showNotification(message, type = 'success') {
   // Create notification element
   const notification = document.createElement('div');
   notification.className = `notification ${type}`;
@@ -30,7 +34,7 @@ function showNotification(message, type = 'success') {
 
 
 // Create the node edit panel
-function createNodeEditPanel(container) {
+export function createNodeEditPanel(container) {
   // Create the panel element
   const panel = document.createElement('div');
   panel.className = 'node-edit-panel';
@@ -77,7 +81,7 @@ function createNodeEditPanel(container) {
 
 
 // Show node editing UI
-function showNodeEditUI(node) {
+export function showNodeEditUI(node) {
   const panel = document.getElementById('node-edit-panel');
   if (!panel) return;
 
@@ -101,7 +105,7 @@ function showNodeEditUI(node) {
 }
 
 // Hide node editing UI
-function hideNodeEditUI() {
+export function hideNodeEditUI() {
   const panel = document.getElementById('node-edit-panel');
   if (panel) {
       panel.classList.remove('visible');
@@ -110,11 +114,18 @@ function hideNodeEditUI() {
 
 
 // Show help text for creation mode
-function showCreationHelp() {
+export function showCreationHelp() {
   creationHelpText = document.createElement('div');
   creationHelpText.className = 'creation-help-text';
   creationHelpText.innerHTML = 'Click on a node to <span>connect</span> or anywhere else to create <span>standalone</span> node. (Press ESC to cancel)';
 
   // Add to the container
   container.appendChild(creationHelpText);
+}
+
+export function hideCreationHelp() {
+  if (creationHelpText) {
+      creationHelpText.remove();
+      creationHelpText = null;
+  }
 }
