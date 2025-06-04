@@ -46,30 +46,37 @@ export class GraphModel {
 
     // Load initial data from data/data.json - No longer used in constructor
     loadInitialData() {
-        fetch('data/data.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Failed to load data/data.json');
-                }
-                return response.json();
-            })
-            .then(data => {
-                if (this.loadFromData(data)) {
-                    console.log('Successfully loaded data from data/data.json');
-                    // Call the callback if provided
-                    if (typeof this.onLoadCallback === 'function') {
-                        this.onLoadCallback(true);
+        try {
+            fetch('data/data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to load data/data.json');
                     }
-                } else {
+                    return response.json();
+                })
+                .then(data => {
+                    if (this.loadFromData(data)) {
+                        console.log('Successfully loaded data from data/data.json');
+                        // Call the callback if provided
+                        if (typeof this.onLoadCallback === 'function') {
+                            this.onLoadCallback(true);
+                        }
+                    } else {
+                        this.loadSampleData();
+                        // The callback will be called by loadSampleData
+                    }
+                })
+                .catch(error => {
+                    console.warn('Could not load data/data.json:', error);
                     this.loadSampleData();
                     // The callback will be called by loadSampleData
-                }
-            })
-            .catch(error => {
-                console.warn('Could not load data/data.json:', error);
-                this.loadSampleData();
-                // The callback will be called by loadSampleData
-            });
+                });
+        } catch (error) {
+            // Fetch can throw synchronously in some environments (e.g. Node)
+            console.warn('Could not load data/data.json:', error);
+            this.loadSampleData();
+            // The callback will be called by loadSampleData
+        }
     }
 
     // Load sample data as fallback
